@@ -12,15 +12,15 @@ import {useIsFocused} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {useSharedValue, useAnimatedStyle} from 'react-native-reanimated';
 
-import {Colors} from '@utils/colors';
-import {MONTHS} from '@assets/months';
-import {isAndroid} from '@utils/device';
-import Frozen from '@components/bank/Frozen';
-import {shadows} from '@components/bank/styles';
-import SettingsItem from '@components/bank/SettingsItem';
-import HeaderWithIcon from '@components/bank/HeaderWithIcon';
-import {PERSONAL_DETAILS, SUPPORT} from '@components/bank/data';
-import SettingsContainer from '@components/bank/SettingsContainer';
+import {Colors} from '@/src/utils/colors';
+import {MONTHS} from '@/src/assets/months';
+import {isAndroid} from '@/src/utils/device';
+import Frozen from '@/src/components/bank/Frozen';
+import {shadows} from '@/src/components/bank/styles';
+import SettingsItem from '@/src/components/bank/SettingsItem';
+import HeaderWithIcon from '@/src/components/bank/HeaderWithIcon';
+import {PERSONAL_DETAILS, SUPPORT} from '@/src/components/bank/data';
+import SettingsContainer from '@/src/components/bank/SettingsContainer';
 
 const BankSettings = () => {
   const isFocused = useIsFocused();
@@ -55,7 +55,7 @@ const BankSettings = () => {
         label={'Settings'}
         icon={
           <Image
-            source={require('@assets/img/bank/settings.png')}
+            source={require('@/src/assets/img/bank/settings.png')}
             style={styles.icon}
           />
         }

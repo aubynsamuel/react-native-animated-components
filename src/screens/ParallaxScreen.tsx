@@ -1,11 +1,11 @@
 import React from 'react';
 import {Animated, StyleSheet, View} from 'react-native';
 
-import {data} from '@components/parallax/data';
+import {data} from '@/src/components/parallax/data';
 import StatusBarManager from '../components/common/StatusBarManager';
-import {ParallaxListItemProps} from '@components/parallax/types';
-import ImplementedWith from '@components/parallax/ImplementedWith';
-import ParallaxListItem from '@components/parallax/ParallaxListItem';
+import {ParallaxListItemProps} from '@/src/components/parallax/types';
+import ImplementedWith from '@/src/components/parallax/ImplementedWith';
+import ParallaxListItem from '@/src/components/parallax/ParallaxListItem';
 
 const ParallaxScreen = () => {
   const scrollX = React.useRef(new Animated.Value(0)).current;

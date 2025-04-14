@@ -1,12 +1,12 @@
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {View, FlatList, StyleSheet, TouchableOpacity} from 'react-native';
 
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
-import StatusBarManager from '@components/common/StatusBarManager';
-import {FAKE_ARRAY, SPACING} from '@components/floatingButton/data';
-import FloatingContent from '@components/floatingButton/FloatingContent';
-import FloatingElement from '@components/floatingButton/FloatingElement';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import {FAKE_ARRAY, SPACING} from '@/src/components/floatingButton/data';
+import FloatingContent from '@/src/components/floatingButton/FloatingContent';
+import FloatingElement from '@/src/components/floatingButton/FloatingElement';
 
 const FakeItem = ({index}: {index: number}) => {
   const RANDOM_NUM1 = Math.floor(Math.random() * 255);

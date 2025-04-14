@@ -1,13 +1,13 @@
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {TouchableOpacity, View, Linking, StyleSheet} from 'react-native';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {HomeHeaderProps} from './types';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
 
 const URL = 'https://www.linkedin.com/in/konstantinos-efkarpidis/';
 

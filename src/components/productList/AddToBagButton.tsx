@@ -2,10 +2,10 @@ import {Image, StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 import {items} from './data';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
 
 const AddToBagButton = ({index}: {index: number}) => {
   const insets = useSafeAreaInsets();
@@ -20,7 +20,10 @@ const AddToBagButton = ({index}: {index: number}) => {
         },
       ]}>
       <View style={styles.innerContainer}>
-        <Image source={require('@assets/img/apple.png')} style={styles.icon} />
+        <Image
+          source={require('@/src/assets/img/apple.png')}
+          style={styles.icon}
+        />
         <Text
           style={styles.label}
           maxFontSizeMultiplier={MED_FONT_UPSCALE_FACTOR}>

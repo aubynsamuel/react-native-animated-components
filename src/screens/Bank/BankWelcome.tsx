@@ -3,14 +3,14 @@ import {StyleSheet, View} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
-import Cards from '@components/bank/Cards';
-import Button from '@components/bank/Button';
-import {shadows} from '@components/bank/styles';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import Cards from '@/src/components/bank/Cards';
+import Button from '@/src/components/bank/Button';
+import {shadows} from '@/src/components/bank/styles';
 import {TBankNavigationProps} from './BankStack';
-import {CARD_HEIGHT} from '@components/bank/constants';
-import BankWelcomeText from '@components/bank/BankWelcomeText';
+import {CARD_HEIGHT} from '@/src/components/bank/constants';
+import BankWelcomeText from '@/src/components/bank/BankWelcomeText';
 
 const BankWelcome = () => {
   const navigation = useNavigation<TBankNavigationProps>();

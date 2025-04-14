@@ -1,7 +1,7 @@
 import {StyleSheet, TextInput, TextInputProps} from 'react-native';
 import Animated, {useAnimatedProps} from 'react-native-reanimated';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {ReTextProps} from './types';
 
 Animated.addWhitelistedNativeProps({text: true});

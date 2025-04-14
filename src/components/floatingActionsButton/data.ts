@@ -1,4 +1,4 @@
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 
 export const CIRCLE_SIZE = 74;
 export const ICON_SIZE = 32;

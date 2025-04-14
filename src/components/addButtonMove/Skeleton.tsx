@@ -1,7 +1,7 @@
 import {StyleSheet, View} from 'react-native';
 
 import {shadow} from './styles';
-import {Colors} from '@utils/colors';
+import {Colors} from '../../utils/colors';
 
 const Skeleton = ({skeletonHeight}: {skeletonHeight: number}) => {
   return (

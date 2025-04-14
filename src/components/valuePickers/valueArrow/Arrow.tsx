@@ -1,5 +1,5 @@
 import {TouchableOpacity} from 'react-native';
-import Entypo from 'react-native-vector-icons/Entypo';
+import Entypo from '@expo/vector-icons/Entypo';
 
 import {TArrow} from './types';
 

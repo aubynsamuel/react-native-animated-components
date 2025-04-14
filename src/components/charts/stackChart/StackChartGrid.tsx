@@ -2,11 +2,11 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {TStackChartGrid} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {chartHeight, chartWidth} from './constants';
-import {SM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {SM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const StackChartGrid = ({valueLabels, animate}: TStackChartGrid) => {
   return (

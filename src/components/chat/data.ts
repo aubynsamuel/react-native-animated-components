@@ -1,14 +1,14 @@
 import {CaptureOptions} from 'react-native-view-shot';
 
-import {isIOS} from '@utils/device';
+import {isIOS} from '@/src/utils/device';
 
 export const EMOJI = [
-  require('@assets/img/emoji/happy.png'),
-  require('@assets/img/emoji/crying.png'),
-  require('@assets/img/emoji/in-love.png'),
-  require('@assets/img/emoji/laughing.png'),
-  require('@assets/img/emoji/anguish.png'),
-  require('@assets/img/emoji/angry.png'),
+  require('@/src/assets/img/emoji/happy.png'),
+  require('@/src/assets/img/emoji/crying.png'),
+  require('@/src/assets/img/emoji/in-love.png'),
+  require('@/src/assets/img/emoji/laughing.png'),
+  require('@/src/assets/img/emoji/anguish.png'),
+  require('@/src/assets/img/emoji/angry.png'),
 ];
 
 export const captureOptions: CaptureOptions = {

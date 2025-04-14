@@ -3,11 +3,11 @@ import {StyleSheet, View} from 'react-native';
 import {SharedValue} from 'react-native-reanimated';
 
 import {TTooltip} from './types';
-import Text from '@components/common/Text';
-import {WIDTH} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {WIDTH} from '@/src/utils/device';
 import StackLegend from './StackLegend';
 import {generateValueLabels} from './utils';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import StackSliceItem from './StackSliceItem';
 import StackChartGrid from './StackChartGrid';
 import StackChartTooltip from './StackChartTooltip';

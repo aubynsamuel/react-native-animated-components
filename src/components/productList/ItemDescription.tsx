@@ -1,9 +1,9 @@
 import {StyleSheet, View} from 'react-native';
 
 import {items} from './data';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
-import {SM_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
+import {SM_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
 
 const ItemDescription = ({index}: {index: number}) => {
   return (

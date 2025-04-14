@@ -3,7 +3,7 @@ import Animated from 'react-native-reanimated';
 
 import {COLORS} from './data';
 import {TMovingDot} from './types';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const MovingDot = ({style}: TMovingDot) => {
   return <Animated.View style={[styles.dot, style]} />;

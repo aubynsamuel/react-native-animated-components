@@ -1,7 +1,7 @@
 import React from 'react';
 import {BackHandler} from 'react-native';
 
-import {isIOS} from '@utils/device';
+import {isIOS} from '@/src/utils/device';
 
 const useBackAction = (callback: () => boolean | null | undefined) => {
   React.useEffect(() => {

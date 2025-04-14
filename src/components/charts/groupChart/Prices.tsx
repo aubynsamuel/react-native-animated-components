@@ -9,8 +9,8 @@ import {StyleSheet} from 'react-native';
 
 import {COLORS} from './data';
 import {TPrices} from './types';
-import {typography} from '@utils/typography';
-import {SM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {typography} from '@/src/utils/typography';
+import {SM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 import {FADE_IN_DUR, FADE_OUT_DUR} from './constants';
 
 const Prices = ({income, expenses}: TPrices) => {

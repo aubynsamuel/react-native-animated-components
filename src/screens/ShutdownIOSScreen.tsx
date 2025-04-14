@@ -7,17 +7,24 @@ import Animated, {
   useAnimatedProps,
 } from 'react-native-reanimated';
 import React from 'react';
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 import {Defs, LinearGradient, Stop} from 'react-native-svg';
 import {View, StyleSheet, ImageBackground} from 'react-native';
 import {Gesture, GestureDetector} from 'react-native-gesture-handler';
 
-import {Colors} from '@utils/colors';
-import AnimatedText from '@components/shutdownIOS/AnimatedText';
-import StatusBarManager from '@components/common/StatusBarManager';
-import {HEIGHT_SCR, WIDTH, XSM_FONT_UPSCALE_FACTOR} from '@utils/device';
-import {AnimatedRect, AnimatedSvg} from '@components/common/AnimatedComponents';
-import {SLIDER_FINAL_W, SLIDER_H, SLIDER_W} from '@components/shutdownIOS/data';
+import {Colors} from '@/src/utils/colors';
+import AnimatedText from '@/src/components/shutdownIOS/AnimatedText';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import {HEIGHT_SCR, WIDTH, XSM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
+import {
+  AnimatedRect,
+  AnimatedSvg,
+} from '@/src/components/common/AnimatedComponents';
+import {
+  SLIDER_FINAL_W,
+  SLIDER_H,
+  SLIDER_W,
+} from '@/src/components/shutdownIOS/data';
 
 const ShutdownIOS = () => {
   const sliderWidth = useSharedValue(SLIDER_W);
@@ -96,7 +103,7 @@ const ShutdownIOS = () => {
     <>
       <StatusBarManager barStyle="light" />
       <ImageBackground
-        source={require('@assets/img/ios_wallpaper.png')}
+        source={require('@/src/assets/img/ios_wallpaper.png')}
         style={{width: WIDTH, height: HEIGHT_SCR}}>
         <Animated.View style={[styles.filterBackground, background]} />
 

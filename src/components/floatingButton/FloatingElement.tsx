@@ -12,11 +12,11 @@ import Animated, {
 import React, {useRef} from 'react';
 import {Keyboard, Pressable, StyleSheet} from 'react-native';
 
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import {image, SPACING} from './data';
 import {TFloatingElement} from './types';
-import {AnimatedPressable} from '@components/common/AnimatedComponents';
+import {AnimatedPressable} from '@/src/components/common/AnimatedComponents';
 
 const FloatingElement = ({
   content,

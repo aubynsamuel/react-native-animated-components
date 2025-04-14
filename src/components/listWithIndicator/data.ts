@@ -1,6 +1,6 @@
 import React from 'react';
 
-import images from '@assets/indiList';
+import images from '@/src/assets/indiList';
 
 export const data = Object.keys(images).map(i => ({
   key: i,

@@ -9,13 +9,13 @@ import React, {useEffect} from 'react';
 import {Pressable, StyleSheet, View} from 'react-native';
 
 import {_spacing} from './constants';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {TWeekDayListItem} from './types';
 import {setDayEmitter} from './Calendar';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {triggerHaptik} from './MonthListModal';
 import {formatDate, isSameDay, isToday} from './utils';
-import {MAX_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
+import {MAX_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
 
 const WeekDayListItem = ({
   day,

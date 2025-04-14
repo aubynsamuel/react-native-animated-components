@@ -5,14 +5,14 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {
   NOTIFICATION_EVENTS_TODAY,
   NOTIFICATION_EVENTS_YESTERDAY,
-} from '@components/screenTransition/data';
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import TextBetween from '@components/screenTransition/TextBetween';
-import FadeInTransition from '@components/screenTransition/FadeInTransition';
-import NotificationEvent from '@components/screenTransition/NotificationEvent';
-import NotificationsHeader from '@components/screenTransition/NotificationsHeader';
+} from '@/src/components/screenTransition/data';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import TextBetween from '@/src/components/screenTransition/TextBetween';
+import FadeInTransition from '@/src/components/screenTransition/FadeInTransition';
+import NotificationEvent from '@/src/components/screenTransition/NotificationEvent';
+import NotificationsHeader from '@/src/components/screenTransition/NotificationsHeader';
 
 const ScreenTransitionNotifications = () => {
   const isFocused = useIsFocused();

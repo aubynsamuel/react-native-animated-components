@@ -2,12 +2,12 @@ import {StyleSheet, View} from 'react-native';
 import Animated, {FadeInDown, FadeOutDown} from 'react-native-reanimated';
 
 import {TEvent} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import EventIndicator from './EventIndicator';
-import {DATA} from '@components/likeInteraction/data';
-import ListItem from '@components/likeInteraction/ListItem';
+import {DATA} from '@/src/components/likeInteraction/data';
+import ListItem from '@/src/components/likeInteraction/ListItem';
 
 const Event = ({time, title, description, duration}: TEvent) => {
   return (

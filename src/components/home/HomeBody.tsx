@@ -4,24 +4,24 @@ import Animated, {
 } from 'react-native-reanimated';
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Entypo from 'react-native-vector-icons/Entypo';
+import Entypo from '@expo/vector-icons/Entypo';
 import {useNavigation} from '@react-navigation/native';
-import Feather from 'react-native-vector-icons/Feather';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import AntDesign from 'react-native-vector-icons/AntDesign';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import Feather from '@expo/vector-icons/Feather';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import AntDesign from '@expo/vector-icons/AntDesign';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
-import {Colors} from '@utils/colors';
-import {DATA} from '@assets/homeData';
+import {Colors} from '@/src/utils/colors';
+import {DATA} from '@/src/assets/homeData';
 import {HomeBodyProps} from './types';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
 import {THomeNavigationProps} from 'src/App';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
-import HomeButton from '@components/common/HomeButton';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
+import HomeButton from '@/src/components/common/HomeButton';
 
 const HomeBody = ({
   scrollRef,
@@ -103,16 +103,16 @@ const HomeBody = ({
           mainItem.iconComp === 'FontAwesome'
             ? FontAwesome
             : mainItem.iconComp === 'MaterialCommunityIcons'
-            ? MaterialCommunityIcons
-            : mainItem.iconComp === 'AntDesign'
-            ? AntDesign
-            : mainItem.iconComp === 'MaterialIcons'
-            ? MaterialIcons
-            : mainItem.iconComp === 'Feather'
-            ? Feather
-            : mainItem.iconComp === 'Entypo'
-            ? Entypo
-            : Ionicons;
+              ? MaterialCommunityIcons
+              : mainItem.iconComp === 'AntDesign'
+                ? AntDesign
+                : mainItem.iconComp === 'MaterialIcons'
+                  ? MaterialIcons
+                  : mainItem.iconComp === 'Feather'
+                    ? Feather
+                    : mainItem.iconComp === 'Entypo'
+                      ? Entypo
+                      : Ionicons;
 
         return (
           <React.Fragment key={index}>

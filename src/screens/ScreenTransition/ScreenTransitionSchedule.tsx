@@ -2,12 +2,12 @@ import {StyleSheet, View} from 'react-native';
 import {useIsFocused} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
-import ScheduleHeader from '@components/screenTransition/ScheduleHeader';
-import FadeInTransition from '@components/screenTransition/FadeInTransition';
-import ScheduleCalendar from '@components/screenTransition/ScheduleCalendar';
-import ScheduleTimeEvents from '@components/screenTransition/ScheduleTimeEvents';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import ScheduleHeader from '@/src/components/screenTransition/ScheduleHeader';
+import FadeInTransition from '@/src/components/screenTransition/FadeInTransition';
+import ScheduleCalendar from '@/src/components/screenTransition/ScheduleCalendar';
+import ScheduleTimeEvents from '@/src/components/screenTransition/ScheduleTimeEvents';
 
 const ScreenTransitionSchedule = () => {
   const isFocused = useIsFocused();

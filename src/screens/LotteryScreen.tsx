@@ -12,7 +12,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import {useEffect, useRef, useState} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
-import Fontisto from 'react-native-vector-icons/Fontisto';
+import Fontisto from '@expo/vector-icons/Fontisto';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Svg, Defs, Path, Stop, Polygon, LinearGradient} from 'react-native-svg';
 
@@ -24,18 +24,18 @@ import {
   CENTER_O_W,
   FULL_CIRCLE,
   OUTER_BORDER_W,
-} from '@components/lottery/constants';
+} from '@/src/components/lottery/constants';
 import {
   AnimatedSvg,
   AnimatedPath,
   AnimatedPressable,
-} from '@components/common/AnimatedComponents';
-import {Colors} from '@utils/colors';
-import Slice from '@components/lottery/Slice';
-import {HEIGHT_SCR, isIOS, WIDTH} from '@utils/device';
-import {ListRefProps} from '@components/lottery/types';
-import ChooseOption from '@components/lottery/ChooseOption';
-import StatusBarManager from '@components/common/StatusBarManager';
+} from '@/src/components/common/AnimatedComponents';
+import {Colors} from '@/src/utils/colors';
+import Slice from '@/src/components/lottery/Slice';
+import {HEIGHT_SCR, isIOS, WIDTH} from '@/src/utils/device';
+import {ListRefProps} from '@/src/components/lottery/types';
+import ChooseOption from '@/src/components/lottery/ChooseOption';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
 
 export const WHEEL_OPTIONS = [
   10, 90, 150, 40, 80, 60, 30, 100, 70, 20, 200, 50,

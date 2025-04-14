@@ -1,10 +1,10 @@
 import {Image, StyleSheet, TouchableOpacity} from 'react-native';
 
 import {COUNTRIES} from './data';
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TCountryItem} from './types';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 
 const CountryItem = ({
   item,

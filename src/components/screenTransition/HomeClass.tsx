@@ -1,10 +1,10 @@
 import {Image, StyleSheet, View} from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 
 const HomeClass = () => {
   return (

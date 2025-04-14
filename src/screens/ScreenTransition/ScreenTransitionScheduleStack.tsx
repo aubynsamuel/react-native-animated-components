@@ -6,7 +6,7 @@ import {
 
 import ScreenTransitionHomework from './ScreenTransitionHomework';
 import ScreenTransitionSubjects from './ScreenTransitionSubjects';
-import SubjectsHeader from '@components/screenTransition/SubjectsHeader';
+import SubjectsHeader from '@/src/components/screenTransition/SubjectsHeader';
 
 const Stack = createNativeStackNavigator();
 

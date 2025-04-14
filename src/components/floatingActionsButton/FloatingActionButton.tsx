@@ -1,10 +1,10 @@
 import {StyleSheet, View} from 'react-native';
 import Animated from 'react-native-reanimated';
 import {forwardRef, useImperativeHandle} from 'react';
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 import {Circle, Defs, LinearGradient, Stop, Svg} from 'react-native-svg';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {CIRCLE_SIZE, ICON_SIZE} from './data';
 import {getAnimatedStyles} from './animatedStyles';
 import {TFloatingActionButtonProps} from './types';

@@ -1,6 +1,6 @@
 import {Text as RNText, TextProps} from 'react-native';
 
-import {MAX_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {MAX_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const Text = (props: TextProps) => {
   return (

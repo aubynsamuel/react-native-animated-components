@@ -1,10 +1,10 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 
-import {Colors} from '@utils/colors';
-import Progress from '@components/progressLoader/Progress';
-import StatusBarManager from '@components/common/StatusBarManager';
-import ImplementedWith from '@components/progressLoader/ImplementedWith';
+import {Colors} from '@/src/utils/colors';
+import Progress from '@/src/components/progressLoader/Progress';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import ImplementedWith from '@/src/components/progressLoader/ImplementedWith';
 
 const ProgressLoaderScreen = () => {
   const [index, setIndex] = React.useState(0);

@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {TListItem, TScrollOffset} from './types';
-import {SM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {SM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const ListItem = ({
   item,

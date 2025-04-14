@@ -1,13 +1,13 @@
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import {DrawerContentScrollView} from '@react-navigation/drawer';
 import {View, StatusBar, StyleSheet, TouchableOpacity} from 'react-native';
 import {DrawerNavigationHelpers} from '@react-navigation/drawer/lib/typescript/src/types';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import DrawerContentItem from './DrawerContentItem';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const DrawerContent = ({navigation}: {navigation: DrawerNavigationHelpers}) => {
   return (

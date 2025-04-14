@@ -9,13 +9,13 @@ import React, {useCallback} from 'react';
 import Haptic from 'react-native-haptic-feedback';
 import {Image, ImageSourcePropType, StyleSheet} from 'react-native';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import MessageItem from './MessageItem';
-import {HAPTIC_CONFIG} from '@utils/haptics';
-import {isAndroid, WIDTH} from '@utils/device';
+import {HAPTIC_CONFIG} from '@/src/utils/haptics';
+import {isAndroid, WIDTH} from '@/src/utils/device';
 import {BACKGROUND_BLUR_RADIUS, EMOJI} from './data';
 import {TBackgroundProps, TEmojiItemProps} from './types';
-import {AnimatedPressable} from '@components/common/AnimatedComponents';
+import {AnimatedPressable} from '@/src/components/common/AnimatedComponents';
 
 const triggerSelectionHaptik = () => {
   if (isAndroid) {

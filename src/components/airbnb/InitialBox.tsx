@@ -1,10 +1,13 @@
 import {StyleSheet, View} from 'react-native';
-import Entypo from 'react-native-vector-icons/Entypo';
+import Entypo from '@expo/vector-icons/Entypo';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR, XSM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import {
+  MED_FONT_UPSCALE_FACTOR,
+  XSM_FONT_UPSCALE_FACTOR,
+} from '@/src/utils/device';
 
 const InitialBox = () => {
   return (

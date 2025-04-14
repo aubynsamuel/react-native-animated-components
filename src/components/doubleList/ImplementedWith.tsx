@@ -2,8 +2,8 @@ import {StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 import {colors} from './constants';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
 
 const ImplementedWith = () => {
   const insets = useSafeAreaInsets();

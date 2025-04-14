@@ -21,4 +21,4 @@ export const COLOURS: string[] = [
   'rgb(190, 10, 255)',
 ];
 
-export const brush = require('@assets/img/brush.png');
+export const brush = require('@/src/assets/img/brush.png');

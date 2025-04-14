@@ -1,8 +1,8 @@
 import {Image, StyleSheet, View} from 'react-native';
 
 import {ListItem} from './types';
-import {Colors} from '@utils/colors';
-import {HEIGHT_SCR, WIDTH} from '@utils/device';
+import {Colors} from '@/src/utils/colors';
+import {HEIGHT_SCR, WIDTH} from '@/src/utils/device';
 
 const ListWithIndicatorItem = ({item}: ListItem) => {
   return (

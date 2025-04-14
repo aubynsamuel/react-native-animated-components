@@ -2,10 +2,10 @@ import React from 'react';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Image, Pressable, StyleSheet, TextInput} from 'react-native';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {TSearchMessageInput} from './types';
-import {typography} from '@utils/typography';
-import {isIOS, MED_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
+import {typography} from '@/src/utils/typography';
+import {isIOS, MED_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
 
 const SendMessageInput = React.memo(
   ({input, setInput, inputRef, onPressSend}: TSearchMessageInput) => {
@@ -33,7 +33,7 @@ const SendMessageInput = React.memo(
           <Image
             tintColor={'white'}
             style={styles.send}
-            source={require('@assets/img/send.png')}
+            source={require('@/src/assets/img/send.png')}
           />
         </Pressable>
       </Pressable>

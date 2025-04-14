@@ -1,11 +1,11 @@
 import {View, Image, StyleSheet} from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import {useIsFocused, useNavigation} from '@react-navigation/native';
 
 import Button from './Button';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import {LessonAdditionalProps} from './types';
 import FadeInTransition from './FadeInTransition';
 
@@ -46,11 +46,11 @@ const LessonAdditional = ({index, containerStyle}: LessonAdditionalProps) => {
           <View style={styles.booksContainer}>
             <Image
               style={styles.book}
-              source={require('@assets/img/screenTransition/grammar1.png')}
+              source={require('@/src/assets/img/screenTransition/grammar1.png')}
             />
             <Image
               style={styles.book}
-              source={require('@assets/img/screenTransition/grammar2.png')}
+              source={require('@/src/assets/img/screenTransition/grammar2.png')}
             />
           </View>
         </FadeInTransition>

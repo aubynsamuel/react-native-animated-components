@@ -2,11 +2,11 @@ import {useRef} from 'react';
 import {StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {Colors} from '@utils/colors';
-import MyButton from '@components/charts/MyButton';
-import PieChart from '@components/charts/pieChart/PieChart';
-import LineChart from '@components/charts/lineChart/LineChart';
-import StatusBarManager from '@components/common/StatusBarManager';
+import {Colors} from '@/src/utils/colors';
+import MyButton from '@/src/components/charts/MyButton';
+import PieChart from '@/src/components/charts/pieChart/PieChart';
+import LineChart from '@/src/components/charts/lineChart/LineChart';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
 
 type ChartRef = {
   animate: (forward?: boolean) => void;

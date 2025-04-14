@@ -6,9 +6,9 @@ import {
   HEIGHT_SCR,
   MED_FONT_UPSCALE_FACTOR,
   XSM_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
+} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
 import {ProductListItemProps} from './types';
 
 const ProductListItem = ({

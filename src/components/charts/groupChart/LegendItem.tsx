@@ -1,9 +1,9 @@
 import {StyleSheet, View} from 'react-native';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TLegendItem} from './types';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const LegendItem = ({label, color}: TLegendItem) => {
   return (

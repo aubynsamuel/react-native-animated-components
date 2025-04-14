@@ -1,8 +1,8 @@
 import {View, StyleSheet} from 'react-native';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TextBetweenProps} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import FadeInTransition from './FadeInTransition';
 
 const TextBetween = ({

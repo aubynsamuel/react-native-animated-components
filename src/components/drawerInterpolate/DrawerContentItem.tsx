@@ -1,10 +1,10 @@
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import {StyleSheet, TouchableOpacity} from 'react-native';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {TDrawerContentItem} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const DrawerContentItem = ({label, icon}: TDrawerContentItem) => {
   return (

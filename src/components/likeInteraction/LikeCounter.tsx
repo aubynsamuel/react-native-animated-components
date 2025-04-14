@@ -8,13 +8,13 @@ import Animated, {
 } from 'react-native-reanimated';
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TLikeCounter} from './types';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import {SM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import {SM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const AnimIcon = Animated.createAnimatedComponent(AntDesign);
 

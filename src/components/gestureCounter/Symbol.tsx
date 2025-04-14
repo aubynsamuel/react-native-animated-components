@@ -2,7 +2,7 @@ import {Pressable, StyleSheet} from 'react-native';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 
 import {TSymbolProps} from './types';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const Symbol = ({
   plus = false,

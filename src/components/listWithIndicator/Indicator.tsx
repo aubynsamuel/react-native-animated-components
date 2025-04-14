@@ -1,8 +1,8 @@
 import {Animated, StyleSheet} from 'react-native';
 
 import {data} from './data';
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import {TIndicator, TMeasure} from './types';
 
 const Indicator = ({measures, scrollX}: TIndicator) => {

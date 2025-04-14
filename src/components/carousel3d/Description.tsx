@@ -2,7 +2,7 @@ import {Animated, StyleSheet, View} from 'react-native';
 
 import {DATA} from './data';
 import Content from './Content';
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 import {DescriptionProps} from './types';
 import {IMAGE_WIDTH, SPACING} from './constants';
 

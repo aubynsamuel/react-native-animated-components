@@ -5,7 +5,7 @@ import Card from './Card';
 import {shadows} from './styles';
 import {cards} from './constants';
 import {StyleProps} from './types';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const Cards = ({style, sharedElementTag}: StyleProps) => {
   return (

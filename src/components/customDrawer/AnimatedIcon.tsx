@@ -1,8 +1,8 @@
 import {Animated, StyleSheet} from 'react-native';
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {TAnimatedIcon} from './types';
 
 const AnimatedAntDesign = Animated.createAnimatedComponent(AntDesign);

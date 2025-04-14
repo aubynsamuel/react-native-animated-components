@@ -5,7 +5,7 @@ import {
 } from 'react-native-reanimated';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {isIOS} from '@utils/device';
+import {isIOS} from '../../utils/device';
 import {AnimatedStyles} from './types';
 
 const getAnimatedStyles = ({

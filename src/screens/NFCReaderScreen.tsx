@@ -10,8 +10,8 @@ import Animated, {
 import React from 'react';
 import {InteractionManager, StyleSheet, View} from 'react-native';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 
 const NFCReader = () => {
   const progress = useSharedValue(0);

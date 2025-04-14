@@ -1,7 +1,7 @@
 import {StyleSheet, View} from 'react-native';
 
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 
 const MonthListPickerLines = () => {
   return (

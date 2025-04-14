@@ -3,13 +3,13 @@ import {StyleSheet, View} from 'react-native';
 import Clipboard from '@react-native-clipboard/clipboard';
 
 import {shadows} from './styles';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {CardDetailProps} from './types';
-import {isAndroid} from '@utils/device';
+import {isAndroid} from '@/src/utils/device';
 import {validateBiometrics} from './utils';
 import SectionHeader from './SectionHeader';
 import CardDetailRow from './CardDetailRow';
-import {useToastContext} from '@providers/ToastProvider';
+import {useToastContext} from '@/src/providers/ToastProvider';
 
 const CardDetail = ({
   cardNumber,

@@ -6,7 +6,7 @@ import {
   interpolateColor,
 } from 'react-native-reanimated';
 
-import {HEIGHT, WIDTH} from '@utils/device';
+import {HEIGHT, WIDTH} from '@/src/utils/device';
 
 export const getAnimatedStyles = (
   progress: SharedValue<number>,

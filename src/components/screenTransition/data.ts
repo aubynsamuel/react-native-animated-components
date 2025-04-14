@@ -1,44 +1,44 @@
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
-import {isIOS} from '@utils/device';
+import {isIOS} from '@/src/utils/device';
 
 export const EVENTS = [
   {
     eventTitle: 'Comedy show',
     eventDate: '26 Apr, 6:30pm',
-    source: require('@assets/img/screenTransition/comedy.jpg'),
+    source: require('@/src/assets/img/screenTransition/comedy.jpg'),
     backgroundColor: '#fbf4fd',
   },
   {
     eventTitle: 'Dance evening',
     eventDate: '2 May, 5:40pm',
-    source: require('@assets/img/screenTransition/dance.png'),
+    source: require('@/src/assets/img/screenTransition/dance.png'),
     backgroundColor: '#effdfc',
   },
   {
     eventTitle: 'Basketball game',
     eventDate: '14 May, 9:40pm',
-    source: require('@assets/img/screenTransition/basket.png'),
+    source: require('@/src/assets/img/screenTransition/basket.png'),
     backgroundColor: '#fefaef',
   },
   {
     eventTitle: 'Dance evening',
     eventDate: '22 June, 9:15pm',
-    source: require('@assets/img/screenTransition/dance.png'),
+    source: require('@/src/assets/img/screenTransition/dance.png'),
     backgroundColor: '#effdfc',
   },
   {
     eventTitle: 'Basketball game',
     eventDate: '1 Aug, 8:30pm',
-    source: require('@assets/img/screenTransition/basket.png'),
+    source: require('@/src/assets/img/screenTransition/basket.png'),
     backgroundColor: '#fbf4fd',
   },
   {
     eventTitle: 'Dance evening',
     eventDate: '19 Sep, 9:00pm',
-    source: require('@assets/img/screenTransition/dance.png'),
+    source: require('@/src/assets/img/screenTransition/dance.png'),
     backgroundColor: '#effdfc',
   },
 ];
@@ -100,20 +100,20 @@ export const NOTIFICATION_EVENTS_YESTERDAY = [
 
 export const ICONS = [
   {
-    active: require('@assets/img/screenTransition/home.png'),
-    inactive: require('@assets/img/screenTransition/home.png'),
+    active: require('@/src/assets/img/screenTransition/home.png'),
+    inactive: require('@/src/assets/img/screenTransition/home.png'),
   },
   {
-    active: require('@assets/img/screenTransition/calendar.png'),
-    inactive: require('@assets/img/screenTransition/calendar.png'),
+    active: require('@/src/assets/img/screenTransition/calendar.png'),
+    inactive: require('@/src/assets/img/screenTransition/calendar.png'),
   },
   {
-    active: require('@assets/img/screenTransition/note.png'),
-    inactive: require('@assets/img/screenTransition/note.png'),
+    active: require('@/src/assets/img/screenTransition/note.png'),
+    inactive: require('@/src/assets/img/screenTransition/note.png'),
   },
   {
-    active: require('@assets/img/screenTransition/chat.png'),
-    inactive: require('@assets/img/screenTransition/chat.png'),
+    active: require('@/src/assets/img/screenTransition/chat.png'),
+    inactive: require('@/src/assets/img/screenTransition/chat.png'),
   },
 ];
 

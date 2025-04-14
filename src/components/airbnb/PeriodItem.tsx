@@ -2,10 +2,10 @@ import {Pressable, StyleSheet} from 'react-native';
 
 import {CALENDAR_PER} from './data';
 import {TPeriodItem} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const PeriodItem = ({item, onPress, isSelected, index}: TPeriodItem) => {
   return (

@@ -10,7 +10,7 @@ import {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 
 import {ICONS, shadow} from './data';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const Tabbar = ({
   state,

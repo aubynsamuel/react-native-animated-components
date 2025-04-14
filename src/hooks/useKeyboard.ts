@@ -1,5 +1,5 @@
 import React from 'react';
-import {isAndroid} from '@utils/device';
+import {isAndroid} from '@/src/utils/device';
 import {Keyboard, KeyboardEvent} from 'react-native';
 
 export const useKeyboard = (considerAndroid = false) => {

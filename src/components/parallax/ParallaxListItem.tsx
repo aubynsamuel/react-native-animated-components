@@ -1,7 +1,7 @@
 import {Animated, Image, StyleSheet, View} from 'react-native';
 
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import {ParallaxListItemProps} from './types';
 
 const ITEM_WIDTH = WIDTH * 0.76;

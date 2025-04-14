@@ -2,11 +2,11 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import Svg, {Defs, LinearGradient, Stop, Rect} from 'react-native-svg';
 
-import {Colors} from '@utils/colors';
-import StatusBarManager from '@components/common/StatusBarManager';
-import ValueDotPicker from '@components/valuePickers/valueDot/ValueDotPicker';
-import ValueListPicker from '@components/valuePickers/valueList/ValueListPicker';
-import ValueArrowPicker from '@components/valuePickers/valueArrow/ValueArrowPicker';
+import {Colors} from '@/src/utils/colors';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import ValueDotPicker from '@/src/components/valuePickers/valueDot/ValueDotPicker';
+import ValueListPicker from '@/src/components/valuePickers/valueList/ValueListPicker';
+import ValueArrowPicker from '@/src/components/valuePickers/valueArrow/ValueArrowPicker';
 
 export type TValueRangePicker = {
   range: [number, number];

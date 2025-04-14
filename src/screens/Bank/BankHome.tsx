@@ -2,12 +2,12 @@ import {useIsFocused} from '@react-navigation/native';
 import {ScrollView, StatusBar, StyleSheet} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {Colors} from '@utils/colors';
-import {cards} from '@components/bank/constants';
-import HomeHeader from '@components/bank/HomeHeader';
-import CardDetail from '@components/bank/CardDetail';
-import HomeActions from '@components/bank/HomeActions';
-import RecentTransactions from '@components/bank/RecentTransactions';
+import {Colors} from '@/src/utils/colors';
+import {cards} from '@/src/components/bank/constants';
+import HomeHeader from '@/src/components/bank/HomeHeader';
+import CardDetail from '@/src/components/bank/CardDetail';
+import HomeActions from '@/src/components/bank/HomeActions';
+import RecentTransactions from '@/src/components/bank/RecentTransactions';
 
 const BankHome = () => {
   const isFocused = useIsFocused();

@@ -1,7 +1,7 @@
 import {Animated, StyleSheet} from 'react-native';
 
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import {BackgroundProps} from './types';
 import {IMAGE_WIDTH, SPACING} from './constants';
 

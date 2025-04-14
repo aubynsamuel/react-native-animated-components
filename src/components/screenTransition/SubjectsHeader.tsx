@@ -5,13 +5,13 @@ import {useNavigation, useIsFocused} from '@react-navigation/native';
 import {
   TInnerStackList,
   TScheduleNavigationProps,
-} from '@screens/ScreenTransition/ScreenTransitionScheduleStack';
-import {isIOS} from '@utils/device';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+} from '@/src/screens/ScreenTransition/ScreenTransitionScheduleStack';
+import {isIOS} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import FadeInTransition from './FadeInTransition';
-import {AnimatedPressable} from '@components/common/AnimatedComponents';
+import {AnimatedPressable} from '@/src/components/common/AnimatedComponents';
 
 const TABS = [
   {

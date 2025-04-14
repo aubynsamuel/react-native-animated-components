@@ -1,9 +1,9 @@
 import {Path, Text} from 'react-native-svg';
 import React, {memo, useCallback} from 'react';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {TListItem, TSlice} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {OUTER_BORDER_W, RADIUS} from './constants';
 import {calculateTextPosition, createSlicePath} from './utils';
 

@@ -1,10 +1,10 @@
 import Animated from 'react-native-reanimated';
 import {Pressable, StyleSheet} from 'react-native';
 
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import {TFloatingModalItemProps} from './types';
-import {MAX_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {MAX_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 import {getAnimatedItemStyles} from './animatedStyles';
 
 const FloatingActionModalItem = ({

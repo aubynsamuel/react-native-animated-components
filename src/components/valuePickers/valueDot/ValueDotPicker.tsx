@@ -8,8 +8,8 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Gesture, GestureDetector} from 'react-native-gesture-handler';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {TValueRangePicker} from './types';
 
 const ValueDotPicker = ({range, unit, value, setValue}: TValueRangePicker) => {

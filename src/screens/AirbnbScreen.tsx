@@ -4,27 +4,27 @@ import Animated, {
   useSharedValue,
 } from 'react-native-reanimated';
 import React from 'react';
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 import {View, TextInput, StyleSheet} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {CalendarActiveDateRange} from '@marceloterreiro/flash-calendar';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {SHORT_MONTHS} from '@assets/months';
-import {typography} from '@utils/typography';
-import Footer from '@components/airbnb/Footer';
-import WhereTo from '@components/airbnb/WhereTo';
-import WhenTrip from '@components/airbnb/WhenTrip';
-import WhoComing from '@components/airbnb/WhoComing';
-import InitialBox from '@components/airbnb/InitialBox';
-import InitialView from '@components/airbnb/InitialView';
-import {CALENDAR_PER, COUNTRIES} from '@components/airbnb/data';
-import StatusBarManager from '@components/common/StatusBarManager';
-import {getAnimatedStyles} from '@components/airbnb/animatedStyles';
-import {HEIGHT, MED_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
-import {AnimatedPressable} from '@components/common/AnimatedComponents';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {SHORT_MONTHS} from '@/src/assets/months';
+import {typography} from '@/src/utils/typography';
+import Footer from '@/src/components/airbnb/Footer';
+import WhereTo from '@/src/components/airbnb/WhereTo';
+import WhenTrip from '@/src/components/airbnb/WhenTrip';
+import WhoComing from '@/src/components/airbnb/WhoComing';
+import InitialBox from '@/src/components/airbnb/InitialBox';
+import InitialView from '@/src/components/airbnb/InitialView';
+import {CALENDAR_PER, COUNTRIES} from '@/src/components/airbnb/data';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import {getAnimatedStyles} from '@/src/components/airbnb/animatedStyles';
+import {HEIGHT, MED_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
+import {AnimatedPressable} from '@/src/components/common/AnimatedComponents';
 
 const Airbnb = () => {
   const insets = useSafeAreaInsets();

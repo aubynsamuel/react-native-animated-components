@@ -75,19 +75,19 @@ export const SEARCH_COUNTRIES = [
 
 export const COUNTRIES = [
   {
-    img: require('@assets/img/flexible.jpg'),
+    img: require('@/src/assets/img/flexible.jpg'),
     label: "I'm flexible",
   },
   {
-    img: require('@assets/img/portugal.jpg'),
+    img: require('@/src/assets/img/portugal.jpg'),
     label: 'Portugal',
   },
   {
-    img: require('@assets/img/middle_east.jpg'),
+    img: require('@/src/assets/img/middle_east.jpg'),
     label: 'Middle East',
   },
   {
-    img: require('@assets/img/italy.jpg'),
+    img: require('@/src/assets/img/italy.jpg'),
     label: 'Italy',
   },
 ];

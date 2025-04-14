@@ -1,11 +1,11 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Feather from 'react-native-vector-icons/Feather';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Feather from '@expo/vector-icons/Feather';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const Header = React.memo(() => (
   <View style={styles.innerHeaderContainer}>

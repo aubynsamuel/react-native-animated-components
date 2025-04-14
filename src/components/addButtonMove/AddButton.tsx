@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
 import Animated from 'react-native-reanimated';
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 
 import {shadow} from './styles';
 import {CIRCLE_SIZE} from './data';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {AddButtonProps} from './types';
 
 const AnimatedIcon = Animated.createAnimatedComponent(Feather);
@@ -13,7 +13,7 @@ const AddButton = ({style, onPress}: AddButtonProps) => {
   return (
     <Animated.View
       onTouchStart={onPress}
-      style={[styles.container, shadow, style]}>
+      style={[styles.container, shadow, style as any]}>
       <AnimatedIcon name={'x'} size={22} color={'white'} />
     </Animated.View>
   );

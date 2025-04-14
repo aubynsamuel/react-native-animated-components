@@ -7,10 +7,10 @@ import {TTotalLabel} from './types';
 import {StyleSheet} from 'react-native';
 
 import {height} from './data';
-import {Colors} from '@utils/colors';
-import ReText from '@components/common/ReText';
-import {typography} from '@utils/typography';
-import {isIOS, SM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {Colors} from '@/src/utils/colors';
+import ReText from '@/src/components/common/ReText';
+import {typography} from '@/src/utils/typography';
+import {isIOS, SM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const TotalLabel = ({animatedText, progress}: TTotalLabel) => {
   const formattedText = useDerivedValue(

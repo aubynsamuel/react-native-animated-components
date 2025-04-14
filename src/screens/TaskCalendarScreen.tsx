@@ -6,15 +6,15 @@ import {
   TEvent,
   TNavigation,
   TCalendarState,
-} from '@components/taskCalendar/types';
-import {Colors} from '@utils/colors';
-import Event from '@components/taskCalendar/Event';
-import Header from '@components/taskCalendar/Header';
-import Loading from '@components/taskCalendar/Loading';
-import {MONTHS} from '@components/taskCalendar/constants';
-import ListEmpty from '@components/taskCalendar/ListEmpty';
-import StatusBarManager from '@components/common/StatusBarManager';
-import {useCalendarEvents} from '@components/taskCalendar/hooks/useCalendarEvents';
+} from '@/src/components/taskCalendar/types';
+import {Colors} from '@/src/utils/colors';
+import Event from '@/src/components/taskCalendar/Event';
+import Header from '@/src/components/taskCalendar/Header';
+import Loading from '@/src/components/taskCalendar/Loading';
+import {MONTHS} from '@/src/components/taskCalendar/constants';
+import ListEmpty from '@/src/components/taskCalendar/ListEmpty';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import {useCalendarEvents} from '@/src/components/taskCalendar/hooks/useCalendarEvents';
 
 export const today = new Date();
 

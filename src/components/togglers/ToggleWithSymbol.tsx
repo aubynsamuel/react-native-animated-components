@@ -2,7 +2,7 @@ import React from 'react';
 import {Animated, Easing, Pressable, StyleSheet, View} from 'react-native';
 
 import {SIZE} from './constants';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const ToggleWithSymbol = () => {
   const animSymbolRef = React.useRef(new Animated.Value(0)).current;

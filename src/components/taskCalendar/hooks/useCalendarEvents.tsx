@@ -1,8 +1,8 @@
 import {useMemo} from 'react';
 
-import {MONTHS} from '@components/taskCalendar/constants';
-import {TCalendarState} from '@components/taskCalendar/types';
-import {generateEventsForDays} from '@components/taskCalendar/utils';
+import {MONTHS} from '@/src/components/taskCalendar/constants';
+import {TCalendarState} from '@/src/components/taskCalendar/types';
+import {generateEventsForDays} from '@/src/components/taskCalendar/utils';
 
 export const useCalendarEvents = (state: TCalendarState) => {
   const numOfDays = useMemo(

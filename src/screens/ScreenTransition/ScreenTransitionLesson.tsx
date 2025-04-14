@@ -2,12 +2,12 @@ import {useIsFocused} from '@react-navigation/native';
 import {ScrollView, StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
-import LessonHeader from '@components/screenTransition/LessonHeader';
-import LessonStudents from '@components/screenTransition/LessonStudents';
-import FadeInTransition from '@components/screenTransition/FadeInTransition';
-import LessonAdditional from '@components/screenTransition/LessonAdditional';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import LessonHeader from '@/src/components/screenTransition/LessonHeader';
+import LessonStudents from '@/src/components/screenTransition/LessonStudents';
+import FadeInTransition from '@/src/components/screenTransition/FadeInTransition';
+import LessonAdditional from '@/src/components/screenTransition/LessonAdditional';
 
 const ScreenTransitionLesson = () => {
   const isFocused = useIsFocused();

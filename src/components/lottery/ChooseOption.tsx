@@ -2,11 +2,11 @@ import {FlatList, StyleSheet} from 'react-native';
 import {forwardRef, useImperativeHandle, useRef} from 'react';
 import Animated, {useAnimatedStyle, withTiming} from 'react-native-reanimated';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import {ListRefProps, TChooseOption} from './types';
-import {WHEEL_OPTIONS} from '@screens/LotteryScreen';
+import {WHEEL_OPTIONS} from '@/src/screens/LotteryScreen';
 import ChooseOptionListItem from './ChooseOptionListItem';
 
 const ChooseOption = forwardRef<ListRefProps, TChooseOption>(

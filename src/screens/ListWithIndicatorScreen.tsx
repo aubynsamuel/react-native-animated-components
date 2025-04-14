@@ -1,14 +1,14 @@
 import React from 'react';
 import {Animated, StyleSheet, View} from 'react-native';
 
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
-import Tabs from '@components/listWithIndicator/Tabs';
-import {data} from '@components/listWithIndicator/data';
-import {ListItem} from '@components/listWithIndicator/types';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import Tabs from '@/src/components/listWithIndicator/Tabs';
+import {data} from '@/src/components/listWithIndicator/data';
+import {ListItem} from '@/src/components/listWithIndicator/types';
 import StatusBarManager from '../components/common/StatusBarManager';
-import ImplementedWith from '@components/listWithIndicator/ImplementedWith';
-import ListWithIndicatorItem from '@components/listWithIndicator/ListWithIndicatorItem';
+import ImplementedWith from '@/src/components/listWithIndicator/ImplementedWith';
+import ListWithIndicatorItem from '@/src/components/listWithIndicator/ListWithIndicatorItem';
 
 const ListWithIndiScreen = () => {
   const flatRef = React.useRef<any>();

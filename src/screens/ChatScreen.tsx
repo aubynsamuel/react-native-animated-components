@@ -24,20 +24,20 @@ import Haptic from 'react-native-haptic-feedback';
 import {captureScreen} from 'react-native-view-shot';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {Colors} from '@utils/colors';
-import {MESSAGES} from '@assets/messages';
-import {HAPTIC_CONFIG} from '@utils/haptics';
-import Header from '@components/chat/Header';
-import Wrapper from '@components/chat/Wrapper';
-import {useKeyboard} from '@hooks/useKeyboard';
-import {isAndroid, isIOS} from '@utils/device';
-import {TMessage} from '@components/chat/types';
-import {commonStyles} from '@utils/commonStyles';
-import {captureOptions} from '@components/chat/data';
-import Background from '@components/chat/Background';
-import MessageItem from '@components/chat/MessageItem';
-import SendMessageInput from '@components/chat/SendMessageInput';
-import StatusBarManager from '@components/common/StatusBarManager';
+import {Colors} from '@/src/utils/colors';
+import {MESSAGES} from '@/src/assets/messages';
+import {HAPTIC_CONFIG} from '@/src/utils/haptics';
+import Header from '@/src/components/chat/Header';
+import Wrapper from '@/src/components/chat/Wrapper';
+import {useKeyboard} from '@/src/hooks/useKeyboard';
+import {isAndroid, isIOS} from '@/src/utils/device';
+import {TMessage} from '@/src/components/chat/types';
+import {commonStyles} from '@/src/utils/commonStyles';
+import {captureOptions} from '@/src/components/chat/data';
+import Background from '@/src/components/chat/Background';
+import MessageItem from '@/src/components/chat/MessageItem';
+import SendMessageInput from '@/src/components/chat/SendMessageInput';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
 
 //Ignore in case you run in simulator
 LogBox.ignoreLogs(['RNReactNativeHapticFeedback is not available']);

@@ -5,11 +5,11 @@ import Animated, {
 } from 'react-native-reanimated';
 import {StyleSheet, View} from 'react-native';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TStackLegend} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {colors, EXPENSES_TYPES} from './constants';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const StackLegend = ({animate, selectedIndex}: TStackLegend) => {
   return (

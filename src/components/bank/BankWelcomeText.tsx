@@ -1,10 +1,10 @@
 import {StyleSheet, View} from 'react-native';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {WelcomeStyleProps} from './types';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const BankWelcomeText = ({style}: WelcomeStyleProps) => {
   return (

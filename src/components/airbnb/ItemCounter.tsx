@@ -4,12 +4,12 @@ import {
   WIDTH,
   SM_FONT_UPSCALE_FACTOR,
   MED_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
-import Text from '@components/common/Text';
+} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
 import {TItemCounter} from './types';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import CounterBtn from './CounterBtn';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const ItemCounter = ({
   label,

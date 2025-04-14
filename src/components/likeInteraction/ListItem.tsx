@@ -9,7 +9,7 @@ import React from 'react';
 import {StyleSheet} from 'react-native';
 
 import {TListItem} from './types';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const ListItem = ({item, index, liked}: TListItem) => {
   const animate = useSharedValue(0);

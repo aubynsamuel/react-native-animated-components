@@ -1,9 +1,9 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
-import {HEIGHT_SCR, WIDTH} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
+import {HEIGHT_SCR, WIDTH} from '@/src/utils/device';
 
 const ICON_SIZE = 42;
 const ITEM_HEIGHT = ICON_SIZE * 2;

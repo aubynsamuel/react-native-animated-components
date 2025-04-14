@@ -1,4 +1,4 @@
-import {HEIGHT_SCR, WIDTH} from '@utils/device';
+import {HEIGHT_SCR, WIDTH} from '@/src/utils/device';
 
 export const routes = [
   'Get started',

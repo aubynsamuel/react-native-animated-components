@@ -1,12 +1,12 @@
 import React from 'react';
 import {View, Animated, StatusBar, StyleSheet} from 'react-native';
 
-import {HEIGHT_SCR, WIDTH} from '@utils/device';
-import Drawer from '@components/customDrawer/Drawer';
-import AnimatedIcon from '@components/customDrawer/AnimatedIcon';
-import StatusBarManager from '@components/common/StatusBarManager';
-import {fromCoords, toCoords} from '@components/customDrawer/data';
-import ImplementedWith from '@components/customDrawer/ImplementWith';
+import {HEIGHT_SCR, WIDTH} from '@/src/utils/device';
+import Drawer from '@/src/components/customDrawer/Drawer';
+import AnimatedIcon from '@/src/components/customDrawer/AnimatedIcon';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import {fromCoords, toCoords} from '@/src/components/customDrawer/data';
+import ImplementedWith from '@/src/components/customDrawer/ImplementWith';
 
 const CustomDrawerScreen = () => {
   const animatedValue = React.useRef(new Animated.ValueXY(fromCoords)).current;

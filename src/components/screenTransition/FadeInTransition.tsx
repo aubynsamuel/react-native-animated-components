@@ -7,7 +7,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import {useEffect} from 'react';
 
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 import {FadeInTransitionProps} from './types';
 
 const FadeInTransition = ({

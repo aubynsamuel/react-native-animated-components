@@ -5,12 +5,12 @@ import Animated, {
   interpolateColor,
 } from 'react-native-reanimated';
 import {Pressable, StyleSheet} from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TNumberItem} from './types';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 
 const AnimPress = Animated.createAnimatedComponent(Pressable);
 

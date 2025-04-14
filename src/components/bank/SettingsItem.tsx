@@ -1,11 +1,11 @@
 import {Pressable, StyleSheet, View} from 'react-native';
 
 import Pencil from './Pencil';
-import Text from '@components/common/Text';
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import {SettingsItemProps} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const SettingsItem = ({
   placeholder,

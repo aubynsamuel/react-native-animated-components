@@ -2,10 +2,10 @@ import {View, Easing, Animated, Pressable, StyleSheet} from 'react-native';
 import React from 'react';
 
 import {SIZE} from './constants';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import {SM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import {SM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const ToggleWithLabel = () => {
   const animRef = React.useRef(new Animated.Value(0)).current;

@@ -2,9 +2,9 @@ import {useEffect} from 'react';
 import {ActivityIndicator, StyleSheet, View} from 'react-native';
 
 import {TLoading} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 
 const Loading = ({loading, stopLoading}: TLoading) => {
   let timeout: ReturnType<typeof setTimeout> = setTimeout(() => {});

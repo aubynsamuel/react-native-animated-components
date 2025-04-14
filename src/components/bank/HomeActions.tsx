@@ -3,10 +3,10 @@ import {View, ViewStyle, Pressable, StyleProp, StyleSheet} from 'react-native';
 
 import {ACTIONS} from './data';
 import {shadows} from './styles';
-import {Colors} from '@utils/colors';
-import {isAndroid} from '@utils/device';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import {isAndroid} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
 import CommonGradient from './CommonGradient';
 
 const HomeActions = ({style}: {style?: StyleProp<ViewStyle>}) => {

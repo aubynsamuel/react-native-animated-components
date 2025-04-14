@@ -2,7 +2,7 @@ import {useState} from 'react';
 import Animated from 'react-native-reanimated';
 import {StyleSheet, LayoutChangeEvent} from 'react-native';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {ACTIONS, INITIAL_DIMENSIONS} from './data';
 import {getAnimatedContainerStyles} from './animatedStyles';
 import FloatingActionModalItem from './FloatingActionModalItem';

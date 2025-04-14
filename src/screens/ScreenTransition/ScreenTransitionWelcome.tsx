@@ -2,13 +2,13 @@ import {Image, StyleSheet, View} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import Button from '@components/screenTransition/Button';
-import {WIDTH, XSM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import Button from '@/src/components/screenTransition/Button';
+import {WIDTH, XSM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 import {TWelcomeNavigationProps} from './ScreenTransitionStack';
-import StatusBarManager from '@components/common/StatusBarManager';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
 
 const title = "The only study app you'll ever need";
 const description =
@@ -32,7 +32,7 @@ const ScreenTransitionWelcome = () => {
         <View style={styles.center}>
           <Image
             style={[styles.img, {marginTop}]}
-            source={require('@assets/img/screenTransition/welcome.png')}
+            source={require('@/src/assets/img/screenTransition/welcome.png')}
           />
           <Text
             style={styles.title}

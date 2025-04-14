@@ -1,8 +1,8 @@
 import {memo} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const MenuIcon = memo(() => {
   return (

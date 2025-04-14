@@ -1,8 +1,8 @@
-import Entypo from 'react-native-vector-icons/Entypo';
+import Entypo from '@expo/vector-icons/Entypo';
 import {StyleSheet, TouchableOpacity} from 'react-native';
 
 import {TCounterBtn} from './types';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const CounterBtn = ({isPlus, onPress, disabled}: TCounterBtn) => (
   <TouchableOpacity

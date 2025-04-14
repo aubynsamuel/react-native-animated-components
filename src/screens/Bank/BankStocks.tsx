@@ -12,11 +12,11 @@ import {useIsFocused} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {useAnimatedStyle, useSharedValue} from 'react-native-reanimated';
 
-import {Colors} from '@utils/colors';
-import {STOCKS_DATA} from '@components/bank/data';
-import StockItem from '@components/bank/StockItem';
-import {StocksItemProps} from '@components/bank/types';
-import HeaderWithIcon from '@components/bank/HeaderWithIcon';
+import {Colors} from '@/src/utils/colors';
+import {STOCKS_DATA} from '@/src/components/bank/data';
+import StockItem from '@/src/components/bank/StockItem';
+import {StocksItemProps} from '@/src/components/bank/types';
+import HeaderWithIcon from '@/src/components/bank/HeaderWithIcon';
 
 const BankStocks = () => {
   const isFocused = useIsFocused();

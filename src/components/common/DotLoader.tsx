@@ -3,7 +3,7 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {View, Animated, TextInput, ScrollView, StyleSheet} from 'react-native';
 
 import Text from './Text';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const ImplementedWith = () => {
   const insets = useSafeAreaInsets();

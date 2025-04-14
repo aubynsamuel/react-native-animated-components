@@ -7,9 +7,9 @@ import {
   NativeStackNavigationProp,
 } from '@react-navigation/native-stack';
 
-import {tabs} from '@components/bank/data';
-import Tabbar from '@components/bank/Tabbar';
-import {ToastProvider} from '@providers/ToastProvider';
+import {tabs} from '@/src/components/bank/data';
+import Tabbar from '@/src/components/bank/Tabbar';
+import {ToastProvider} from '@/src/providers/ToastProvider';
 
 const Tab = createBottomTabNavigator();
 

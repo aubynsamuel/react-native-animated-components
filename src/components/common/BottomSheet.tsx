@@ -10,10 +10,10 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Gesture, GestureDetector} from 'react-native-gesture-handler';
 
-import {Colors} from '@utils/colors';
-import useBackAction from '@hooks/useBackAction';
-import {HEIGHT, HEIGHT_SCR, isIOS} from '@utils/device';
-import {useModalContext} from '@providers/ModalProvider';
+import {Colors} from '@/src/utils/colors';
+import useBackAction from '@/src/hooks/useBackAction';
+import {HEIGHT, HEIGHT_SCR, isIOS} from '@/src/utils/device';
+import {useModalContext} from '@/src/providers/ModalProvider';
 import {BottomSheetProps, BottomSheetRef} from './types';
 
 const MAX_HEIGHT = isIOS ? HEIGHT : HEIGHT_SCR;

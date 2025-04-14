@@ -11,10 +11,10 @@ import {View, StyleSheet, StatusBar} from 'react-native';
 import {AnimatedScrollView} from 'react-native-reanimated/lib/typescript/component/ScrollView';
 
 //My Libs
-import {Colors} from '@utils/colors';
-import Splash from '@components/home/Splash';
-import HomeBody from '@components/home/HomeBody';
-import HomeHeader from '@components/home/HomeHeader';
+import {Colors} from '@/src/utils/colors';
+import Splash from '@/src/components/home/Splash';
+import HomeBody from '@/src/components/home/HomeBody';
+import HomeHeader from '@/src/components/home/HomeHeader';
 
 const HomeScreen = () => {
   const isFocused = useIsFocused();

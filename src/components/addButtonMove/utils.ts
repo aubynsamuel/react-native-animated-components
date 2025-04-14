@@ -1,4 +1,4 @@
-import {HEIGHT_SCR} from '@utils/device';
+import {HEIGHT_SCR} from '@/src/utils/device';
 
 export const calculateSkeletonHeight = (
   insetsTop: number = 0,

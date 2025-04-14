@@ -3,8 +3,8 @@ import {StyleSheet} from 'react-native';
 import Button from './Button';
 import {colors} from './data';
 import {TRouteProps} from './types';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 
 const Route = ({index, route, selectedRoute, onPress}: TRouteProps) => {
   return (

@@ -3,12 +3,12 @@ import {Image, StyleSheet, View} from 'react-native';
 import {useSharedValue} from 'react-native-reanimated';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {Colors} from '@utils/colors';
-import {FadeItemProps} from '@components/fadeItemList/types';
-import FadeListItem from '@components/fadeItemList/FadeListItem';
-import StatusBarManager from '@components/common/StatusBarManager';
-import ImplementedWith from '@components/fadeItemList/ImplementedWith';
-import {BG_IMG, DATA, SPACING} from '@components/fadeItemList/constants';
+import {Colors} from '@/src/utils/colors';
+import {FadeItemProps} from '@/src/components/fadeItemList/types';
+import FadeListItem from '@/src/components/fadeItemList/FadeListItem';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import ImplementedWith from '@/src/components/fadeItemList/ImplementedWith';
+import {BG_IMG, DATA, SPACING} from '@/src/components/fadeItemList/constants';
 
 const Separator = () => <View style={{height: SPACING}} />;
 

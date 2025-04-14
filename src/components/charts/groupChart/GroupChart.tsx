@@ -13,8 +13,8 @@ import Legend from './Legend';
 import Prices from './Prices';
 import {TGroupItem} from './types';
 import MovingDot from './MovingDot';
-import {WIDTH} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {WIDTH} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import {GROUP_WIDTH} from './constants';
 import GroupBarItem from './GroupBarItem';
 

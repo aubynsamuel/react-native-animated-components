@@ -3,10 +3,10 @@ import {StyleSheet, TouchableOpacity, View} from 'react-native';
 
 import {data} from './data';
 import {TTab} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import {XSM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import {XSM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const Tab = React.forwardRef(({item, onItemPress}: TTab, ref: any) => {
   return (

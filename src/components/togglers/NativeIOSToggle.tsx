@@ -6,10 +6,10 @@ import Animated, {
 } from 'react-native-reanimated';
 import React from 'react';
 import {Pressable, StyleSheet, View} from 'react-native';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 import {SIZE} from './constants';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 
 const AnimatedIcon = Animated.createAnimatedComponent(MaterialIcons);
 

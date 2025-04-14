@@ -3,8 +3,8 @@ import {StyleSheet} from 'react-native';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 
 import {TListItem} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 
 const ListItem = React.memo(({item, index, unit, scrollOffset}: TListItem) => {
   const animStyle = useAnimatedStyle(() => ({

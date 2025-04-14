@@ -1,11 +1,11 @@
 import {StyleSheet, View} from 'react-native';
 
 import {TWhoComing} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import ItemCounter from './ItemCounter';
-import {typography} from '@utils/typography';
-import {HEIGHT, MED_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
+import {typography} from '@/src/utils/typography';
+import {HEIGHT, MED_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
 
 const WhoComing = ({
   pets,

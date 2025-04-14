@@ -14,10 +14,10 @@ import {LinearGradient, Rect, Stop, Svg} from 'react-native-svg';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 import {tabs} from './data';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import CommonGradient from './CommonGradient';
-import {isAndroid, WIDTH} from '@utils/device';
-import {AnimatedSvg} from '@components/common/AnimatedComponents';
+import {isAndroid, WIDTH} from '@/src/utils/device';
+import {AnimatedSvg} from '@/src/components/common/AnimatedComponents';
 
 const TABS = [
   {

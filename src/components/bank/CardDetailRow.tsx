@@ -10,14 +10,17 @@ import Animated, {
 import {Path} from 'react-native-svg';
 import {Pressable, StyleSheet, View} from 'react-native';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {CardDetailRowProps} from './types';
 import {checkPath, copyPath} from './data';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import CommonGradient from './CommonGradient';
-import {AnimatedSvg} from '@components/common/AnimatedComponents';
-import {SM_FONT_UPSCALE_FACTOR, XSM_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {AnimatedSvg} from '@/src/components/common/AnimatedComponents';
+import {
+  SM_FONT_UPSCALE_FACTOR,
+  XSM_FONT_UPSCALE_FACTOR,
+} from '@/src/utils/device';
 
 const CardDetailRow = ({
   label,

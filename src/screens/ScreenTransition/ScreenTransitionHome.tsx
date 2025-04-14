@@ -2,15 +2,15 @@ import {useIsFocused} from '@react-navigation/native';
 import {ScrollView, StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
-import {EVENTS} from '@components/screenTransition/data';
-import SearchBar from '@components/screenTransition/SearchBar';
-import HomeClass from '@components/screenTransition/HomeClass';
-import HomeEvent from '@components/screenTransition/HomeEvent';
-import HomeHeader from '@components/screenTransition/HomeHeader';
-import TextBetween from '@components/screenTransition/TextBetween';
-import FadeInTransition from '@components/screenTransition/FadeInTransition';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import {EVENTS} from '@/src/components/screenTransition/data';
+import SearchBar from '@/src/components/screenTransition/SearchBar';
+import HomeClass from '@/src/components/screenTransition/HomeClass';
+import HomeEvent from '@/src/components/screenTransition/HomeEvent';
+import HomeHeader from '@/src/components/screenTransition/HomeHeader';
+import TextBetween from '@/src/components/screenTransition/TextBetween';
+import FadeInTransition from '@/src/components/screenTransition/FadeInTransition';
 
 const ScreenTransitionHome = () => {
   const isFocused = useIsFocused();

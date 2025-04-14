@@ -2,12 +2,12 @@ import Animated from 'react-native-reanimated';
 import {Image, StyleSheet} from 'react-native';
 
 import {CIRCLE_SIZE} from './data';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {ActionItemProps} from './types';
 
 const ActionItem = ({source, containerStyle}: ActionItemProps) => {
   return (
-    <Animated.View style={[styles.container, containerStyle]}>
+    <Animated.View style={[styles.container, containerStyle as any]}>
       <Image source={source} style={styles.image} />
     </Animated.View>
   );

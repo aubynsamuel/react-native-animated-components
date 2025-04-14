@@ -1,10 +1,10 @@
 import React from 'react';
 import {View, Animated, StyleSheet, LayoutChangeEvent} from 'react-native';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {TProgressProps} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const Progress = ({step, steps, height}: TProgressProps) => {
   const [width, setWidth] = React.useState(0);

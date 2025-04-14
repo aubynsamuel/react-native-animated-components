@@ -8,10 +8,10 @@ import {StyleSheet, View} from 'react-native';
 
 import FloatingActionButton, {
   RefProps,
-} from '@components/floatingActionsButton/FloatingActionButton';
-import {Colors} from '@utils/colors';
-import StatusBarManager from '@components/common/StatusBarManager';
-import FloatingActionModal from '@components/floatingActionsButton/FloatingActionModal';
+} from '@/src/components/floatingActionsButton/FloatingActionButton';
+import {Colors} from '@/src/utils/colors';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import FloatingActionModal from '@/src/components/floatingActionsButton/FloatingActionModal';
 
 const FloatingActionButtonScreen = () => {
   const floatingRef = useRef<RefProps>(null);

@@ -6,11 +6,11 @@ import {View, FlatList, ViewStyle, StyleProp, StyleSheet} from 'react-native';
 import Bar from './Bar';
 import Tabs from './Tabs';
 import {BarItemProps} from './types';
-import {Colors} from '@utils/colors';
-import {MONTHS} from '@assets/months';
-import {isAndroid} from '@utils/device';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import {MONTHS} from '@/src/assets/months';
+import {isAndroid} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
 import CommonGradient from './CommonGradient';
 import {EARNINGS, SELECTED_TYPE} from './data';
 

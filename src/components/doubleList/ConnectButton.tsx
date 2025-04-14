@@ -1,10 +1,10 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 
-import Text from '@components/common/Text';
-import {HEIGHT_SCR} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {HEIGHT_SCR} from '@/src/utils/device';
 import {TConnectButtonProps} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {colors, ITEM_HEIGHT} from './constants';
 
 const ConnectButton = React.memo(({onPress}: TConnectButtonProps) => {

@@ -1,10 +1,10 @@
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TSearchItem} from './types';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 
 const SearchItem = ({place, date, guests}: TSearchItem) => (
   <TouchableOpacity

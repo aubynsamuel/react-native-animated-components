@@ -1,12 +1,12 @@
-import Entypo from 'react-native-vector-icons/Entypo';
+import Entypo from '@expo/vector-icons/Entypo';
 import {Pressable, StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 import {TFooter} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {HEIGHT, WIDTH} from '@utils/device';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {HEIGHT, WIDTH} from '@/src/utils/device';
+import {typography} from '@/src/utils/typography';
 
 const Footer = ({onPressClear, animateClose}: TFooter) => {
   const insets = useSafeAreaInsets();

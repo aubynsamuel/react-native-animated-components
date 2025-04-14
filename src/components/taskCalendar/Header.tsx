@@ -10,12 +10,12 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {THeader} from './types';
 import Calendar from './Calendar';
 import MenuIcon from './MenuIcon';
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import MonthPicker from './MonthPicker';
 import {ANIMATION_DUR} from './constants';
 import MonthListModal from './MonthListModal';
-import {useModalContext} from '@providers/ModalProvider';
+import {useModalContext} from '@/src/providers/ModalProvider';
 
 const Header = ({month, selectedDate, onSelecteMonth}: THeader) => {
   const insets = useSafeAreaInsets();

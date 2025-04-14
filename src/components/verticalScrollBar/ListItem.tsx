@@ -1,11 +1,11 @@
 import {StyleSheet, View} from 'react-native';
 import Animated, {useAnimatedStyle} from 'react-native-reanimated';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
 import {ListItemProps} from './types';
-import {typography} from '@utils/typography';
-import {MAX_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {MAX_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 
 const ListItem = ({
   item,

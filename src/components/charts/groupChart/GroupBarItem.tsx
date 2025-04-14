@@ -3,10 +3,10 @@ import {interpolate, useAnimatedStyle} from 'react-native-reanimated';
 
 import {COLORS} from './data';
 import GroupBar from './GroupBar';
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {TGroupBarContainer} from './types';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const GroupBarItem = ({
   animate,

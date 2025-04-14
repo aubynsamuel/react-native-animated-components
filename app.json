@@ -1,4 +1,36 @@
 {
-  "name": "animatedComponents",
-  "displayName": "animatedComponents"
+  "expo": {
+    "name": "Animated Components",
+    "slug": "animatedComponents",
+    "version": "0.0.1",
+    "orientation": "default",
+    "icon": "./assets/bootsplash/logo.png",
+    "scheme": "animatedComponents",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/bootsplash/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.animatedComponents"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/bootsplash/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
 }

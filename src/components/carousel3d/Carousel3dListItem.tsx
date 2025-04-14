@@ -1,6 +1,6 @@
 import {Animated, Image, StyleSheet} from 'react-native';
 
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 import {ICarousel3DProps} from './types';
 import {IMAGE_HEIGHT, IMAGE_WIDTH, SPACING} from './constants';
 

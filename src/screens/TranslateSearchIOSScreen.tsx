@@ -5,7 +5,7 @@ import Animated, {
   useAnimatedStyle,
 } from 'react-native-reanimated';
 import React from 'react';
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 import {View, TextInput, StyleSheet} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
@@ -14,11 +14,11 @@ import {
   WIDTH,
   MAX_FONT_UPSCALE_FACTOR,
   MED_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import StatusBarManager from '@components/common/StatusBarManager';
-import {AnimatedPressable} from '@components/common/AnimatedComponents';
+} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import {AnimatedPressable} from '@/src/components/common/AnimatedComponents';
 
 const TranslateSearchIOSScreen = () => {
   const progress = useSharedValue(0);

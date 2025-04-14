@@ -14,14 +14,14 @@ import {
   HEIGHT,
   SM_FONT_UPSCALE_FACTOR,
   MED_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
+} from '@/src/utils/device';
 import {TWhenTrip} from './types';
 import {CALENDAR_PER} from './data';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import PickerItem from './PickerItem';
 import PeriodItem from './PeriodItem';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const now = new Date();
 const today = toDateId(now);

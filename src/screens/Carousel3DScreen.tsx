@@ -13,16 +13,16 @@ import {
   SPACING,
   IMAGE_HEIGHT,
   IMAGE_WIDTH,
-} from '@components/carousel3d/constants';
-import {Colors} from '@utils/colors';
-import {isAndroid, WIDTH} from '@utils/device';
-import {DATA} from '@components/carousel3d/data';
-import Arrows from '@components/carousel3d/Arrows';
-import Background from '@components/carousel3d/Background';
-import Description from '@components/carousel3d/Description';
+} from '@/src/components/carousel3d/constants';
+import {Colors} from '@/src/utils/colors';
+import {isAndroid, WIDTH} from '@/src/utils/device';
+import {DATA} from '@/src/components/carousel3d/data';
+import Arrows from '@/src/components/carousel3d/Arrows';
+import Background from '@/src/components/carousel3d/Background';
+import Description from '@/src/components/carousel3d/Description';
 import StatusBarManager from '../components/common/StatusBarManager';
-import {ICarouselDataType} from '@components/carousel3d/types';
-import ImplementedWith from '@components/carousel3d/ImplementedWith';
+import {ICarouselDataType} from '@/src/components/carousel3d/types';
+import ImplementedWith from '@/src/components/carousel3d/ImplementedWith';
 import Carousel3dListItem from '../components/carousel3d/Carousel3dListItem';
 
 const Carousel3DScreen = () => {

@@ -1,10 +1,10 @@
 import {StyleSheet, View} from 'react-native';
 
-import StatusBarManager from '@components/common/StatusBarManager';
-import ImplementedWith from '@components/togglers/ImplementedWith';
-import NativeIOSToggle from '@components/togglers/NativeIOSToggle';
-import ToggleWithLabel from '@components/togglers/ToggleWithLabel';
-import ToggleWithSymbol from '@components/togglers/ToggleWithSymbol';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import ImplementedWith from '@/src/components/togglers/ImplementedWith';
+import NativeIOSToggle from '@/src/components/togglers/NativeIOSToggle';
+import ToggleWithLabel from '@/src/components/togglers/ToggleWithLabel';
+import ToggleWithSymbol from '@/src/components/togglers/ToggleWithSymbol';
 
 const TogglersScreen = () => {
   return (

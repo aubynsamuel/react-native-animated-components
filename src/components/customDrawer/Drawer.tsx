@@ -1,15 +1,15 @@
 import React from 'react';
 import {Polygon, Svg} from 'react-native-svg';
 import {Animated, StyleSheet, View} from 'react-native';
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import MaskedView from '@react-native-masked-view/masked-view';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 import Link from './Link';
 import Route from './Route';
 import {DrawerProps} from './types';
-import {Colors} from '@utils/colors';
-import {HEIGHT_SCR, WIDTH} from '@utils/device';
+import {Colors} from '@/src/utils/colors';
+import {HEIGHT_SCR, WIDTH} from '@/src/utils/device';
 import {fromCoords, links, routes} from './data';
 
 const AnimatedPolygon = Animated.createAnimatedComponent(Polygon);

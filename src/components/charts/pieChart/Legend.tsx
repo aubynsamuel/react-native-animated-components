@@ -6,9 +6,9 @@ import Animated, {
 import {StyleSheet, View} from 'react-native';
 
 import {TLegend} from './types';
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {data, total, width} from './data';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const Legend = ({progress, selectedValue}: TLegend) => {
   return (

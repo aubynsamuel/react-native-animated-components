@@ -1,9 +1,9 @@
 import {Pressable, StyleSheet} from 'react-native';
 
-import Text from '@components/common/Text';
-import {WIDTH} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {WIDTH} from '@/src/utils/device';
 import {TPickerItem} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const PickerItem = ({label, onPress, style}: TPickerItem) => (
   <Pressable onPress={onPress} style={[styles.pickerItem, style]}>

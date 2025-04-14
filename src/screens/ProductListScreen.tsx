@@ -9,14 +9,14 @@ import React from 'react';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Animated, FlatList, StyleSheet, View} from 'react-native';
 
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
-import {items} from '@components/productList/data';
-import {ProductItem} from '@components/productList/types';
-import {WIDTH, XSM_FONT_UPSCALE_FACTOR} from '@utils/device';
-import AddToBagButton from '@components/productList/AddToBagButton';
-import ItemDescription from '@components/productList/ItemDescription';
-import ProductListItem from '@components/productList/ProductListItem';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
+import {items} from '@/src/components/productList/data';
+import {ProductItem} from '@/src/components/productList/types';
+import {WIDTH, XSM_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
+import AddToBagButton from '@/src/components/productList/AddToBagButton';
+import ItemDescription from '@/src/components/productList/ItemDescription';
+import ProductListItem from '@/src/components/productList/ProductListItem';
 
 const ProductListScreen = () => {
   const [index, setIndex] = React.useState(0);

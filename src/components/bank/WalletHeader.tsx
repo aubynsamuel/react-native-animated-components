@@ -13,14 +13,14 @@ import {useNavigation} from '@react-navigation/native';
 import Clipboard from '@react-native-clipboard/clipboard';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {Colors} from '@utils/colors';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
+import {Colors} from '@/src/utils/colors';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
 import CommonGradient from './CommonGradient';
-import ContextMenu from '@components/common/ContextMenu';
-import {useToastContext} from '@providers/ToastProvider';
+import ContextMenu from '@/src/components/common/ContextMenu';
+import {useToastContext} from '@/src/providers/ToastProvider';
 import {CARD_MENU_ITEMS, morePath, personPath} from './data';
-import {TBankSettingsNavigationProps} from '@screens/Bank/BankBottomStack';
+import {TBankSettingsNavigationProps} from '@/src/screens/Bank/BankBottomStack';
 
 const WalletHeader = ({style}: {style?: StyleProp<ViewStyle>}) => {
   const {showToast} = useToastContext();

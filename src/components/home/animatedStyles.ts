@@ -5,7 +5,7 @@ import {
   useAnimatedStyle,
 } from 'react-native-reanimated';
 
-import {HEIGHT_SCR} from '@utils/device';
+import {HEIGHT_SCR} from '@/src/utils/device';
 
 export const getAnimatedStyles = (splashProgress: SharedValue<number>) => {
   const imageStyle = useAnimatedStyle(() => {

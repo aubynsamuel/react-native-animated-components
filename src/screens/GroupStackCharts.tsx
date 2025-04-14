@@ -2,11 +2,11 @@ import {StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Easing, useSharedValue, withTiming} from 'react-native-reanimated';
 
-import {Colors} from '@utils/colors';
-import MyButton from '@components/charts/MyButton';
-import GroupChart from '@components/charts/groupChart/GroupChart';
-import StackChart from '@components/charts/stackChart/StackChart';
-import StatusBarManager from '@components/common/StatusBarManager';
+import {Colors} from '@/src/utils/colors';
+import MyButton from '@/src/components/charts/MyButton';
+import GroupChart from '@/src/components/charts/groupChart/GroupChart';
+import StackChart from '@/src/components/charts/stackChart/StackChart';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
 
 const GroupStackCharts = () => {
   const insets = useSafeAreaInsets();

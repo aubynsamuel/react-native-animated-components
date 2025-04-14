@@ -11,11 +11,11 @@ import {useEffect} from 'react';
 import {StyleSheet} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
-import {Colors} from '@utils/colors';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
-import {isAndroid, WIDTH} from '@utils/device';
-import {shadows} from '@components/bank/styles';
+import {Colors} from '@/src/utils/colors';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
+import {isAndroid, WIDTH} from '@/src/utils/device';
+import {shadows} from '@/src/components/bank/styles';
 
 const Toast = ({
   message,

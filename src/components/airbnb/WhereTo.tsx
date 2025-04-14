@@ -1,6 +1,6 @@
 import React, {forwardRef} from 'react';
 import Animated from 'react-native-reanimated';
-import Entypo from 'react-native-vector-icons/Entypo';
+import Entypo from '@expo/vector-icons/Entypo';
 import {FlatList} from 'react-native-gesture-handler';
 import {Keyboard, StyleSheet, TextInput} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
@@ -11,14 +11,14 @@ import {
   HEIGHT,
   SM_FONT_UPSCALE_FACTOR,
   XSM_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import SearchItem from './SearchItem';
 import CountryItem from './CountryItem';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {COUNTRIES, SEARCH_COUNTRIES} from './data';
-import {AnimatedPressable} from '@components/common/AnimatedComponents';
+import {AnimatedPressable} from '@/src/components/common/AnimatedComponents';
 import {TRenderCountryItem, TRenderSearchItem, TWhereTo} from './types';
 
 const WhereTo = forwardRef<TextInput, TWhereTo>(

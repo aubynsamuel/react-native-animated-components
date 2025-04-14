@@ -2,9 +2,9 @@ import {useState} from 'react';
 import {StyleSheet, View} from 'react-native';
 import Animated, {useAnimatedStyle, withTiming} from 'react-native-reanimated';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import {barHeight, colors} from './constants';
 import {TStackChartTooltip, TTooltip} from './types';
 

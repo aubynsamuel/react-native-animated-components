@@ -1,11 +1,11 @@
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 
 import {DATA} from './data';
 import {ArrowProps} from './types';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import {IMAGE_WIDTH, SPACING} from './constants';
 
 const Arrows = ({

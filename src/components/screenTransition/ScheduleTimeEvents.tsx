@@ -8,16 +8,16 @@ import {
 import {View, ScrollView, StyleSheet} from 'react-native';
 import {useIsFocused, useNavigation} from '@react-navigation/native';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
 import {findScheduleForTimes} from './utils';
 import {SCHEDULE_EVENTS, TIMES} from './data';
 import {ScheduleTimeEventsProps} from './types';
 import FadeInTransition from './FadeInTransition';
-import {SM_FONT_UPSCALE_FACTOR, WIDTH} from '@utils/device';
-import {AnimatedPressable} from '@components/common/AnimatedComponents';
-import {TWelcomeNavigationProps} from '@screens/ScreenTransition/ScreenTransitionStack';
+import {SM_FONT_UPSCALE_FACTOR, WIDTH} from '@/src/utils/device';
+import {AnimatedPressable} from '@/src/components/common/AnimatedComponents';
+import {TWelcomeNavigationProps} from '@/src/screens/ScreenTransition/ScreenTransitionStack';
 
 type EventProps = {
   event: {

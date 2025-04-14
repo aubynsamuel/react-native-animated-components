@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, View} from 'react-native';
 
 import Tab from './Tab';
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 import Indicator from './Indicator';
 import {TMeasure, TTabs} from './types';
 

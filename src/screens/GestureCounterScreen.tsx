@@ -1,7 +1,7 @@
 import {StyleSheet, View} from 'react-native';
 
-import {Colors} from '@utils/colors';
-import GestureCounter from '@components/gestureCounter/GestureCounter';
+import {Colors} from '@/src/utils/colors';
+import GestureCounter from '@/src/components/gestureCounter/GestureCounter';
 
 const GestureCounterScreen = () => {
   return (

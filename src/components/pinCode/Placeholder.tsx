@@ -8,7 +8,7 @@ import Animated, {
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {PlaceholderFunction} from './types';
 
 const Placeholder = React.forwardRef<PlaceholderFunction | undefined>(

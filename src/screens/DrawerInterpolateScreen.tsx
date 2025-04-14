@@ -4,7 +4,7 @@ import {
   createDrawerNavigator,
 } from '@react-navigation/drawer';
 import {useEffect} from 'react';
-import Entypo from 'react-native-vector-icons/Entypo';
+import Entypo from '@expo/vector-icons/Entypo';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {View, StatusBar, StyleSheet, TouchableOpacity} from 'react-native';
 import Animated, {interpolate, useAnimatedStyle} from 'react-native-reanimated';
@@ -13,12 +13,15 @@ import {
   DrawerNavigationHelpers,
 } from '@react-navigation/drawer/lib/typescript/src/types';
 
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import StatusBarManager from '@components/common/StatusBarManager';
-import DrawerContent from '@components/drawerInterpolate/DrawerContent';
-import {DrawerTypes, TDrawerList} from '@components/drawerInterpolate/types';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import DrawerContent from '@/src/components/drawerInterpolate/DrawerContent';
+import {
+  DrawerTypes,
+  TDrawerList,
+} from '@/src/components/drawerInterpolate/types';
 
 const Drawer = createDrawerNavigator<TDrawerList>();
 

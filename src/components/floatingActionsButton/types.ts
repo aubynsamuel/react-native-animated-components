@@ -1,6 +1,6 @@
 import {ViewStyle} from 'react-native';
 import {SharedValue} from 'react-native-reanimated';
-import Feather from 'react-native-vector-icons/Feather';
+import Feather from '@expo/vector-icons/Feather';
 
 export type TFloatingActionButtonProps = {
   progress: SharedValue<number>;

@@ -1,12 +1,12 @@
 import {Rect, Svg} from 'react-native-svg';
 import {Pressable, StyleSheet} from 'react-native';
 
-import Text from '@components/common/Text';
-import {WIDTH} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {WIDTH} from '@/src/utils/device';
 import {ButtonProps} from './types';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {BUTTON_HEIGHT} from './constants';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import CommonGradient from './CommonGradient';
 
 const Button = ({label, style, onPress}: ButtonProps) => {

@@ -7,7 +7,7 @@ import {StyleSheet} from 'react-native';
 
 import {SLIDER_W} from './data';
 import {TAnimatedText} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const AnimatedText = ({
   index,

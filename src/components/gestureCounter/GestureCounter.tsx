@@ -9,9 +9,9 @@ import {useCallback, useState} from 'react';
 
 import Symbol from './Symbol';
 import Bubble from './Bubble';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {lightShadow} from './styles';
-import {triggerHaptik} from '@components/taskCalendar/MonthListModal';
+import {triggerHaptik} from '@/src/components/taskCalendar/MonthListModal';
 
 const GestureCounter = () => {
   const [counter, setCounter] = useState(0);

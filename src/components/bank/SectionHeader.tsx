@@ -1,11 +1,11 @@
 import {Svg, Text as SVGText} from 'react-native-svg';
 import {View, Pressable, StyleSheet} from 'react-native';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {SectionHeaderProps} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import CommonGradient from './CommonGradient';
-import {isIOS, MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {isIOS, MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const SectionHeader = ({
   label,

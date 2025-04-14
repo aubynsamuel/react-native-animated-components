@@ -11,13 +11,13 @@ import {StyleSheet, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Gesture, GestureDetector} from 'react-native-gesture-handler';
 
-import {Colors} from '@utils/colors';
-import Skeleton from '@components/addButtonMove/Skeleton';
-import AddButton from '@components/addButtonMove/AddButton';
-import ActionItem from '@components/addButtonMove/ActionItem';
-import {calculateSkeletonHeight} from '@components/addButtonMove/utils';
-import {AnimatedScrollView} from '@components/common/AnimatedComponents';
-import {ACTION_ITEMS, CIRCLE_SIZE} from '@components/addButtonMove/data';
+import {Colors} from '@/src/utils/colors';
+import Skeleton from '@/src/components/addButtonMove/Skeleton';
+import AddButton from '@/src/components/addButtonMove/AddButton';
+import ActionItem from '@/src/components/addButtonMove/ActionItem';
+import {calculateSkeletonHeight} from '@/src/components/addButtonMove/utils';
+import {AnimatedScrollView} from '@/src/components/common/AnimatedComponents';
+import {ACTION_ITEMS, CIRCLE_SIZE} from '@/src/components/addButtonMove/data';
 
 const AddButtonMoveScreen = () => {
   const insets = useSafeAreaInsets();

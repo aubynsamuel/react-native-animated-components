@@ -1,4 +1,4 @@
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 
 export const DATA = [
   {

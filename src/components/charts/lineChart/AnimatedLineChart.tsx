@@ -24,14 +24,14 @@ import {
   isAndroid,
   SM_FONT_UPSCALE_FACTOR,
   XSM_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
+} from '@/src/utils/device';
 import {days} from './data';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import ReText from '@components/common/ReText';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import ReText from '@/src/components/common/ReText';
 import {ChartRef, TProps} from './types';
-import {typography} from '@utils/typography';
-import {AnimatedPath} from '@components/common/AnimatedComponents';
+import {typography} from '@/src/utils/typography';
+import {AnimatedPath} from '@/src/components/common/AnimatedComponents';
 
 const AnimatedLineChart = React.forwardRef<ChartRef, TProps>((props, ref) => {
   const {

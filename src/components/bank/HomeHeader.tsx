@@ -1,13 +1,13 @@
-import Octicons from 'react-native-vector-icons/Octicons';
+import Octicons from '@expo/vector-icons/Octicons';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {View, Image, StyleProp, ViewStyle, StyleSheet} from 'react-native';
 
 import Cards from './Cards';
 import {shadows} from './styles';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {isIOS, WIDTH} from '@utils/device';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {isIOS, WIDTH} from '@/src/utils/device';
+import {typography} from '@/src/utils/typography';
 import {CARD_BODY_HEIGHT, CARD_FOOTER_HEIGHT, CARD_WIDTH} from './constants';
 
 const HomeHeader = ({style}: {style?: StyleProp<ViewStyle>}) => {
@@ -20,7 +20,7 @@ const HomeHeader = ({style}: {style?: StyleProp<ViewStyle>}) => {
         <View style={styles.avatarLabelContainer}>
           <View style={styles.avatarContainer}>
             <Image
-              source={require('@assets/img/bank/avatar.png')}
+              source={require('@/src/assets/img/bank/avatar.png')}
               style={styles.avatar}
             />
           </View>

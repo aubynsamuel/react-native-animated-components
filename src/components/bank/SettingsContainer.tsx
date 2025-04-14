@@ -1,11 +1,11 @@
 import {StyleSheet, View} from 'react-native';
 
 import {shadows} from './styles';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
-import {isAndroid} from '@utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
+import {isAndroid} from '@/src/utils/device';
 import SettingsItem from './SettingsItem';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {SettingsContainerProps, SettingsItemProps} from './types';
 
 const SettingsContainer = ({title, data, style}: SettingsContainerProps) => {

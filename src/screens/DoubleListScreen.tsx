@@ -8,15 +8,15 @@ import {
 } from 'react-native';
 import React from 'react';
 
-import data from '@assets/doubleList';
-import List from '@components/doubleList/List';
-import {HEIGHT_SCR, WIDTH} from '@utils/device';
-import Item from '@components/doubleList/ConnectListItem';
-import ConnectButton from '@components/doubleList/ConnectButton';
-import StatusBarManager from '@components/common/StatusBarManager';
-import ImplementedWith from '@components/doubleList/ImplementedWith';
-import ConnectWithText from '@components/doubleList/ConnectWithText';
-import {colors, ITEM_HEIGHT} from '@components/doubleList/constants';
+import data from '@/src/assets/doubleList';
+import List from '@/src/components/doubleList/List';
+import {HEIGHT_SCR, WIDTH} from '@/src/utils/device';
+import Item from '@/src/components/doubleList/ConnectListItem';
+import ConnectButton from '@/src/components/doubleList/ConnectButton';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import ImplementedWith from '@/src/components/doubleList/ImplementedWith';
+import ConnectWithText from '@/src/components/doubleList/ConnectWithText';
+import {colors, ITEM_HEIGHT} from '@/src/components/doubleList/constants';
 
 const DoubleListScreen = () => {
   const [index, setIndex] = React.useState(0);

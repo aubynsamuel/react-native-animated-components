@@ -9,13 +9,13 @@ import {StyleSheet, View} from 'react-native';
 import {useEffect, useRef, useState} from 'react';
 
 import {shadows} from './styles';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import {StocksItemProps} from './types';
-import {isAndroid} from '@utils/device';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
-import {ChartRef} from '@components/charts/lineChart/types';
-import AnimatedLineChart from '@components/charts/lineChart/AnimatedLineChart';
+import {isAndroid} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
+import {ChartRef} from '@/src/components/charts/lineChart/types';
+import AnimatedLineChart from '@/src/components/charts/lineChart/AnimatedLineChart';
 
 const StockItem = ({name, values}: StocksItemProps) => {
   const chartRef = useRef<ChartRef>(null);

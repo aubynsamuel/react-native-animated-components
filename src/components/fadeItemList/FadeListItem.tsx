@@ -10,11 +10,11 @@ import {
   WIDTH,
   SM_FONT_UPSCALE_FACTOR,
   MED_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
-import Text from '@components/common/Text';
-import {Colors} from '@utils/colors';
+} from '@/src/utils/device';
+import Text from '@/src/components/common/Text';
+import {Colors} from '@/src/utils/colors';
 import {FadeItemProps} from './types';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 import {AVATAR_SIZE, ITEM_SIZE, SPACING} from './constants';
 
 const FadeListItem = ({

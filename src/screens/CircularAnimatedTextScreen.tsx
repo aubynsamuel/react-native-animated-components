@@ -14,11 +14,11 @@ import {
   COLOURS,
   BOX_SIZE,
   NUM_LETTER_CIRCLES,
-} from '@components/circularAnimatedText/data';
-import {Colors} from '@utils/colors';
-import ColorBox from '@components/circularAnimatedText/ColorBox';
-import StatusBarManager from '@components/common/StatusBarManager';
-import AnimCircle from '@components/circularAnimatedText/AnimCricle';
+} from '@/src/components/circularAnimatedText/data';
+import {Colors} from '@/src/utils/colors';
+import ColorBox from '@/src/components/circularAnimatedText/ColorBox';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
+import AnimCircle from '@/src/components/circularAnimatedText/AnimCricle';
 
 const CircularAnimatedTextScreen = () => {
   const insets = useSafeAreaInsets();

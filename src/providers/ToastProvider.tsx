@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Toast from '@components/toast/Toast';
+import Toast from '@/src/components/toast/Toast';
 
 const initialState: TInitialState = {
   message: null,

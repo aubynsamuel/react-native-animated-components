@@ -10,10 +10,10 @@ import {useCallback} from 'react';
 import {useIsFocused} from '@react-navigation/native';
 import {useAnimatedStyle, useSharedValue} from 'react-native-reanimated';
 
-import {Colors} from '@utils/colors';
-import WalletHeader from '@components/bank/WalletHeader';
-import WalletCharts from '@components/bank/WalletCharts';
-import CardTransactions from '@components/bank/CardTransactions';
+import {Colors} from '@/src/utils/colors';
+import WalletHeader from '@/src/components/bank/WalletHeader';
+import WalletCharts from '@/src/components/bank/WalletCharts';
+import CardTransactions from '@/src/components/bank/CardTransactions';
 
 const BankWallet = () => {
   const isFocused = useIsFocused();

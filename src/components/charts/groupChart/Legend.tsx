@@ -1,9 +1,9 @@
 import {StyleSheet, View} from 'react-native';
 
 import {COLORS} from './data';
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import LegendItem from './LegendItem';
-import {typography} from '@utils/typography';
+import {typography} from '@/src/utils/typography';
 
 const Legend = () => {
   return (

@@ -4,14 +4,14 @@ import {
   isAndroid,
   SM_FONT_UPSCALE_FACTOR,
   MED_FONT_UPSCALE_FACTOR,
-} from '@utils/device';
+} from '@/src/utils/device';
 import {shadows} from './styles';
 import StockIcon from './StockIcon';
-import {Colors} from '@utils/colors';
+import {Colors} from '@/src/utils/colors';
 import WalletIcon from './WalletIcon';
 import {TransactionProps} from './types';
-import Text from '@components/common/Text';
-import {typography} from '@utils/typography';
+import Text from '@/src/components/common/Text';
+import {typography} from '@/src/utils/typography';
 
 const Transaction = ({
   date,

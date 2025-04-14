@@ -2,7 +2,7 @@ import {View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 import {TWrapperProps} from './types';
-import {HEIGHT_SCR, isAndroid} from '@utils/device';
+import {HEIGHT_SCR, isAndroid} from '@/src/utils/device';
 
 const Wrapper = ({children}: TWrapperProps) => {
   const insets = useSafeAreaInsets();

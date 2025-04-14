@@ -1,10 +1,10 @@
 import {StyleSheet, TouchableOpacity} from 'react-native';
 
-import Text from '@components/common/Text';
+import Text from '@/src/components/common/Text';
 import {ButtonProps} from './types';
-import {Colors} from '@utils/colors';
-import {typography} from '@utils/typography';
-import {MED_FONT_UPSCALE_FACTOR} from '@utils/device';
+import {Colors} from '@/src/utils/colors';
+import {typography} from '@/src/utils/typography';
+import {MED_FONT_UPSCALE_FACTOR} from '@/src/utils/device';
 
 const Button = ({style, label, onPress}: ButtonProps) => {
   return (

@@ -1,6 +1,6 @@
 import {StyleSheet, View} from 'react-native';
 
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 import {_spacing} from './constants';
 
 const WeekEmptyDayListItem = () => {

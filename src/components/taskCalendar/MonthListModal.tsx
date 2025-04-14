@@ -20,8 +20,8 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {MONTHS} from './constants';
 import {TMonthListModal} from './types';
 import MonthListItem from './MonthListItem';
-import {HAPTIC_CONFIG} from '@utils/haptics';
-import {isIOS, isAndroid} from '@utils/device';
+import {HAPTIC_CONFIG} from '@/src/utils/haptics';
+import {isIOS, isAndroid} from '@/src/utils/device';
 import MonthListPickerLines from './MonthListPickerLines';
 
 const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);

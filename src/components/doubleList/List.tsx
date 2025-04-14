@@ -2,9 +2,9 @@ import React from 'react';
 import {Animated} from 'react-native';
 
 import Item from './ConnectListItem';
-import data from '@assets/doubleList';
+import data from '@/src/assets/doubleList';
 import {ITEM_HEIGHT} from './constants';
-import {HEIGHT_SCR} from '@utils/device';
+import {HEIGHT_SCR} from '@/src/utils/device';
 import {IItemProps, TListProps} from './types';
 
 const List = React.forwardRef(

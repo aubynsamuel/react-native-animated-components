@@ -5,12 +5,12 @@ import Animated, {
 import React from 'react';
 import {View, FlatList, StyleSheet, ActivityIndicator} from 'react-native';
 
-import {Colors} from '@utils/colors';
-import NumberItem from '@components/pinCode/NumberItem';
-import Placeholder from '@components/pinCode/Placeholder';
-import {DATA, PLACEHOLDERS} from '@components/pinCode/data';
-import {PlaceholderFunction} from '@components/pinCode/types';
-import StatusBarManager from '@components/common/StatusBarManager';
+import {Colors} from '@/src/utils/colors';
+import NumberItem from '@/src/components/pinCode/NumberItem';
+import Placeholder from '@/src/components/pinCode/Placeholder';
+import {DATA, PLACEHOLDERS} from '@/src/components/pinCode/data';
+import {PlaceholderFunction} from '@/src/components/pinCode/types';
+import StatusBarManager from '@/src/components/common/StatusBarManager';
 
 const PinCode = () => {
   const translateX = useSharedValue(0);

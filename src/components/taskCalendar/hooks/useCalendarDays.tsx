@@ -5,8 +5,8 @@ import {
 } from '@marceloterreiro/flash-calendar';
 import {useMemo} from 'react';
 
-import {MONTHS} from '@components/taskCalendar/constants';
-import {TEmptyDay} from '@components/taskCalendar/types';
+import {MONTHS} from '@/src/components/taskCalendar/constants';
+import {TEmptyDay} from '@/src/components/taskCalendar/types';
 
 export const useCalendarDays = (
   month: string,

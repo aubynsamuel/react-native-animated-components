@@ -1,18 +1,18 @@
 import {Linking} from 'react-native';
-import Entypo from 'react-native-vector-icons/Entypo';
-import AntDesign from 'react-native-vector-icons/AntDesign';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import Entypo from '@expo/vector-icons/Entypo';
+import AntDesign from '@expo/vector-icons/AntDesign';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 import Email from './Email';
 import Support from './Support';
-import {isIOS} from '@utils/device';
-import {Colors} from '@utils/colors';
+import {isIOS} from '@/src/utils/device';
+import {Colors} from '@/src/utils/colors';
 import {generateStockData} from './utils';
 import {TransactionItemProps} from './types';
-import BankHome from '@screens/Bank/BankHome';
-import BankStocks from '@screens/Bank/BankStocks';
-import BankWallet from '@screens/Bank/BankWallet';
-import BankSettings from '@screens/Bank/BankSettings';
+import BankHome from '@/src/screens/Bank/BankHome';
+import BankStocks from '@/src/screens/Bank/BankStocks';
+import BankWallet from '@/src/screens/Bank/BankWallet';
+import BankSettings from '@/src/screens/Bank/BankSettings';
 
 export const tabs = [
   {

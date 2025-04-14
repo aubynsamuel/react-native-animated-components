@@ -1,4 +1,4 @@
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 
 export const IMAGE_WIDTH = WIDTH * 0.65;
 export const IMAGE_HEIGHT = IMAGE_WIDTH * 0.7;

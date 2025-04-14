@@ -4,9 +4,9 @@ import React, {memo, useCallback, useRef} from 'react';
 import {CalendarDayMetadata} from '@marceloterreiro/flash-calendar';
 import {runOnJS, useAnimatedReaction} from 'react-native-reanimated';
 
-import {WIDTH} from '@utils/device';
+import {WIDTH} from '@/src/utils/device';
 import WeekDayListItem from './WeekDayListItem';
-import {today} from '@screens/TaskCalendarScreen';
+import {today} from '@/src/screens/TaskCalendarScreen';
 import {useCalendarDays} from './hooks/useCalendarDays';
 import WeekEmptyDayListItem from './WeekEmptyDayListItem';
 import {TCalendar, TEmptyDay, TCalendarListItem} from './types';
